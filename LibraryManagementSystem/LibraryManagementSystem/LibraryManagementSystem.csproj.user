@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="AdminForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="BookManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ManageReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReaderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReturnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserManagementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="UserProfileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="YourLoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="YourReservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
