@@ -38,17 +38,17 @@
             // 
             // loanChartViewer
             // 
-            loanChartViewer.Location = new Point(94, 79);
+            loanChartViewer.Location = new Point(37, 79);
             loanChartViewer.Name = "loanChartViewer";
-            loanChartViewer.Size = new Size(300, 300);
+            loanChartViewer.Size = new Size(372, 351);
             loanChartViewer.TabIndex = 0;
             loanChartViewer.Text = "chart1";
             // 
             // reservationChartViewer
             // 
-            reservationChartViewer.Location = new Point(480, 79);
+            reservationChartViewer.Location = new Point(447, 79);
             reservationChartViewer.Name = "reservationChartViewer";
-            reservationChartViewer.Size = new Size(300, 300);
+            reservationChartViewer.Size = new Size(372, 351);
             reservationChartViewer.TabIndex = 1;
             reservationChartViewer.Text = "chart2";
             // 
@@ -56,7 +56,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15F);
-            label1.Location = new Point(162, 416);
+            label1.Location = new Point(144, 452);
             label1.Name = "label1";
             label1.Size = new Size(164, 28);
             label1.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15F);
-            label2.Location = new Point(507, 416);
+            label2.Location = new Point(510, 452);
             label2.Name = "label2";
             label2.Size = new Size(246, 28);
             label2.TabIndex = 3;
@@ -76,7 +76,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(863, 545);
+            ClientSize = new Size(891, 545);
             Controls.Add(label2);
             Controls.Add(label1);
             Controls.Add(reservationChartViewer);

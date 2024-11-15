@@ -120,7 +120,7 @@ namespace LibraryManagementSystem
         private void btnSave_Click(object sender, EventArgs e)
         {
             string username = txtUsername.Text.Trim();
-            string password = txtPassword.Text; // Lấy mật khẩu mới từ txtPassword
+            string password = txtPassword.Text; // Lấy mật khẩu từ txtPassword
             string role = cbbRole.SelectedItem?.ToString();
             string fullName = txtFullName.Text;
             string email = txtEmail.Text;
@@ -128,17 +128,16 @@ namespace LibraryManagementSystem
             string address = txtAddress.Text;
             string status = cbbStatus.SelectedItem?.ToString();
 
-            // Kiểm tra xem tất cả các trường bắt buộc đã được điền chưa
-            if (string.IsNullOrEmpty(username) || string.IsNullOrEmpty(password) ||
-                string.IsNullOrEmpty(role) || string.IsNullOrEmpty(fullName) ||
-                string.IsNullOrEmpty(email) || string.IsNullOrEmpty(status))
+            // Kiểm tra xem tất cả các trường bắt buộc đã được điền chưa (ngoại trừ mật khẩu)
+            if (string.IsNullOrEmpty(username) ||
+                string.IsNullOrEmpty(role) ||
+                string.IsNullOrEmpty(fullName) ||
+                string.IsNullOrEmpty(email) ||
+                string.IsNullOrEmpty(status))
             {
                 MessageBox.Show("Please fill in all required fields.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return; // Dừng lại nếu thiếu thông tin
             }
-
-            // Nếu tất cả các trường bắt buộc đã được điền, tiếp tục xử lý
-            string hashedPassword = HashPassword(password); // Băm mật khẩu mới
 
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
@@ -147,9 +146,22 @@ namespace LibraryManagementSystem
 
                 if (isEditMode && !string.IsNullOrEmpty(selectedUsername))
                 {
-                    // Cập nhật người dùng dựa trên Username, bao gồm mật khẩu mới đã băm
-                    string updateQuery = "UPDATE [User] SET PasswordHash = @PasswordHash, Role = @Role, FullName = @FullName, Email = @Email, PhoneNo = @PhoneNo, Address = @Address, Status = @Status WHERE Username = @Username";
-                    command = new SqlCommand(updateQuery, connection);
+                    // Nếu đang ở chế độ chỉnh sửa và có selectedUsername
+                    StringBuilder updateQuery = new StringBuilder("UPDATE [User] SET Role = @Role, FullName = @FullName, Email = @Email, PhoneNo = @PhoneNo, Address = @Address, Status = @Status");
+
+                    // Nếu trường txtPassword không trống, thì thêm cập nhật mật khẩu
+                    if (!string.IsNullOrEmpty(password))
+                    {
+                        string hashedPassword = HashPassword(password); // Băm mật khẩu mới
+                        updateQuery.Append(", PasswordHash = @PasswordHash");
+                        command = new SqlCommand(updateQuery.ToString() + " WHERE Username = @Username", connection);
+                        command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
+                    }
+                    else
+                    {
+                        // Nếu mật khẩu không thay đổi, không gửi PasswordHash vào cơ sở dữ liệu
+                        command = new SqlCommand(updateQuery.ToString() + " WHERE Username = @Username", connection);
+                    }
                     command.Parameters.AddWithValue("@Username", selectedUsername); // Sử dụng selectedUsername cho cập nhật
                 }
                 else
@@ -157,11 +169,12 @@ namespace LibraryManagementSystem
                     // Thêm người dùng mới
                     string insertQuery = "INSERT INTO [User] (Username, PasswordHash, Role, FullName, Email, PhoneNo, Address, Status) VALUES (@Username, @PasswordHash, @Role, @FullName, @Email, @PhoneNo, @Address, @Status)";
                     command = new SqlCommand(insertQuery, connection);
+                    string hashedPassword = HashPassword(password); // Băm mật khẩu
+                    command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
                     command.Parameters.AddWithValue("@Username", username);
                 }
 
                 // Gán các giá trị khác vào command
-                command.Parameters.AddWithValue("@PasswordHash", hashedPassword);
                 command.Parameters.AddWithValue("@Role", role);
                 command.Parameters.AddWithValue("@FullName", fullName);
                 command.Parameters.AddWithValue("@Email", email);

@@ -70,5 +70,15 @@ namespace LibraryManagementSystem
                 this.Hide(); // Ẩn form hiện tại
             }
         }
+
+        private void btnManageLoan_Click(object sender, EventArgs e)
+        {
+            openForm(new ManageLoan());
+        }
+
+        private void btnManageReservation_Click(object sender, EventArgs e)
+        {
+            openForm(new ManageReservation());
+        }
     }
 }

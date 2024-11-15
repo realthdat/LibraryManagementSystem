@@ -18,7 +18,6 @@ namespace LibraryManagementSystem
         public AdminForm()
         {
             InitializeComponent();
-            openForm(new Dashboard());
         }
 
 

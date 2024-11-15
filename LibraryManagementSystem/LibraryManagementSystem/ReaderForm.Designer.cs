@@ -32,6 +32,8 @@
             lblWelcomeBack = new Label();
             pictureBox2 = new PictureBox();
             panel1 = new Panel();
+            btnRequestReservation = new Button();
+            btnRequestBorrow = new Button();
             button7 = new Button();
             btnYourReservation = new Button();
             btnYourLoan = new Button();
@@ -75,6 +77,8 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnRequestReservation);
+            panel1.Controls.Add(btnRequestBorrow);
             panel1.Controls.Add(button7);
             panel1.Controls.Add(btnYourReservation);
             panel1.Controls.Add(btnYourLoan);
@@ -84,6 +88,26 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(275, 640);
             panel1.TabIndex = 4;
+            // 
+            // btnRequestReservation
+            // 
+            btnRequestReservation.Location = new Point(6, 295);
+            btnRequestReservation.Name = "btnRequestReservation";
+            btnRequestReservation.Size = new Size(265, 63);
+            btnRequestReservation.TabIndex = 6;
+            btnRequestReservation.Text = "Request Reservation";
+            btnRequestReservation.UseVisualStyleBackColor = true;
+            btnRequestReservation.Click += btnRequestReservation_Click;
+            // 
+            // btnRequestBorrow
+            // 
+            btnRequestBorrow.Location = new Point(6, 226);
+            btnRequestBorrow.Name = "btnRequestBorrow";
+            btnRequestBorrow.Size = new Size(265, 63);
+            btnRequestBorrow.TabIndex = 5;
+            btnRequestBorrow.Text = "Request Borrow";
+            btnRequestBorrow.UseVisualStyleBackColor = true;
+            btnRequestBorrow.Click += btnRequestBorrow_Click;
             // 
             // button7
             // 
@@ -97,7 +121,7 @@
             // 
             // btnYourReservation
             // 
-            btnYourReservation.Location = new Point(6, 295);
+            btnYourReservation.Location = new Point(9, 433);
             btnYourReservation.Name = "btnYourReservation";
             btnYourReservation.Size = new Size(265, 63);
             btnYourReservation.TabIndex = 3;
@@ -107,7 +131,7 @@
             // 
             // btnYourLoan
             // 
-            btnYourLoan.Location = new Point(7, 226);
+            btnYourLoan.Location = new Point(10, 364);
             btnYourLoan.Name = "btnYourLoan";
             btnYourLoan.Size = new Size(265, 63);
             btnYourLoan.TabIndex = 2;
@@ -165,5 +189,7 @@
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
         private Label lblWelcomeBack;
+        private Button btnRequestReservation;
+        private Button btnRequestBorrow;
     }
 }

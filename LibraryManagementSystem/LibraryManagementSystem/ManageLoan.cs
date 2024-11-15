@@ -23,6 +23,7 @@ namespace LibraryManagementSystem
             LoadUsers();
             LoadBooks();
             LoadLoanData();
+            LoadStatusOptions();
         }
 
         // Load dữ liệu UserID -> UserName vào ComboBox
@@ -73,13 +74,20 @@ namespace LibraryManagementSystem
             }
         }
 
+        private void LoadStatusOptions()
+        {
+            cbbStatus.Items.Add("active");
+            cbbStatus.Items.Add("pending");
+            cbbStatus.Items.Add("completed");
+        }
+
         // Load dữ liệu từ bảng Loan vào DataGridView
         private void LoadLoanData()
         {
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
                 connection.Open();
-                string query = "SELECT LoanID, UserID, BookID, LoanDate, ReturnDate, ActualReturnDate, Fine, RefCode FROM Loan";
+                string query = "SELECT LoanID, UserID, BookID, LoanDate, ReturnDate, ActualReturnDate, Fine, Status, RefCode FROM Loan";
                 using (SqlDataAdapter adapter = new SqlDataAdapter(query, connection))
                 {
                     DataTable loanTable = new DataTable();
@@ -98,6 +106,7 @@ namespace LibraryManagementSystem
             dtpLoanDate.Value = DateTime.Now;
             dtpReturnDate.Value = DateTime.Now;
             dtpActualReturnDate.Value = DateTime.Now;
+            cbbStatus.SelectedIndex = -1;
             txtFine.Text = string.Empty;
             txtRefCode.Text = string.Empty;
         }
@@ -144,6 +153,7 @@ namespace LibraryManagementSystem
                 dtpLoanDate.Value = Convert.ToDateTime(selectedRow.Cells["LoanDate"].Value);
                 dtpReturnDate.Value = Convert.ToDateTime(selectedRow.Cells["ReturnDate"].Value);
                 dtpActualReturnDate.Value = selectedRow.Cells["ActualReturnDate"].Value == DBNull.Value ? DateTime.Now : Convert.ToDateTime(selectedRow.Cells["ActualReturnDate"].Value);
+                cbbStatus.SelectedValue = selectedRow.Cells["Status"].Value;
                 txtFine.Text = selectedRow.Cells["Fine"].Value.ToString();
                 txtRefCode.Text = selectedRefCode;
 
@@ -158,13 +168,14 @@ namespace LibraryManagementSystem
         private void btnSave_Click(object sender, EventArgs e)
         {
             if (cbbUser.SelectedItem is KeyValuePair<int, string> selectedUser &&
-                cbbBook.SelectedItem is KeyValuePair<int, string> selectedBook)
+        cbbBook.SelectedItem is KeyValuePair<int, string> selectedBook)
             {
                 int userID = selectedUser.Key;
                 int bookID = selectedBook.Key;
                 DateTime loanDate = dtpLoanDate.Value;
                 DateTime returnDate = dtpReturnDate.Value;
                 DateTime? actualReturnDate = dtpActualReturnDate.Value;
+                string status = cbbStatus.SelectedItem?.ToString(); // Status của Loan
                 decimal fine = string.IsNullOrEmpty(txtFine.Text) ? 0 : Convert.ToDecimal(txtFine.Text);
                 string refCode = txtRefCode.Text;
 
@@ -172,16 +183,16 @@ namespace LibraryManagementSystem
                 {
                     connection.Open();
                     SqlCommand command;
+
+                    // Lưu Loan record (INSERT hoặc UPDATE)
                     if (isEditMode)
                     {
-                        // Update bản ghi Loan dựa trên RefCode
-                        string updateQuery = "UPDATE Loan SET UserID = @UserID, BookID = @BookID, LoanDate = @LoanDate, ReturnDate = @ReturnDate, ActualReturnDate = @ActualReturnDate, Fine = @Fine WHERE RefCode = @RefCode";
+                        string updateQuery = "UPDATE Loan SET UserID = @UserID, BookID = @BookID, LoanDate = @LoanDate, ReturnDate = @ReturnDate, Fine = @Fine, Status = @Status WHERE RefCode = @RefCode";
                         command = new SqlCommand(updateQuery, connection);
                     }
                     else
                     {
-                        // Insert bản ghi Loan mới
-                        string insertQuery = "INSERT INTO Loan (UserID, BookID, LoanDate, ReturnDate, ActualReturnDate, Fine, RefCode) VALUES (@UserID, @BookID, @LoanDate, @ReturnDate, @ActualReturnDate, @Fine, @RefCode)";
+                        string insertQuery = "INSERT INTO Loan (UserID, BookID, LoanDate, ReturnDate, ActualReturnDate, Fine, Status, RefCode) VALUES (@UserID, @BookID, @LoanDate, @ReturnDate, @ActualReturnDate, @Fine, @Status, @RefCode)";
                         command = new SqlCommand(insertQuery, connection);
                     }
 
@@ -190,12 +201,16 @@ namespace LibraryManagementSystem
                     command.Parameters.AddWithValue("@LoanDate", loanDate);
                     command.Parameters.AddWithValue("@ReturnDate", returnDate);
                     command.Parameters.AddWithValue("@ActualReturnDate", actualReturnDate ?? (object)DBNull.Value);
+                    command.Parameters.AddWithValue("@Status", status ?? (object)DBNull.Value);
                     command.Parameters.AddWithValue("@Fine", fine);
                     command.Parameters.AddWithValue("@RefCode", refCode);
 
                     int result = command.ExecuteNonQuery();
                     if (result > 0)
                     {
+                        // Cập nhật trạng thái Reservation dựa trên trạng thái Loan
+                        UpdateReservationStatus(userID, bookID, status, connection);
+
                         MessageBox.Show("Loan record saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         ClearFields();
                         LoadLoanData();
@@ -250,30 +265,26 @@ namespace LibraryManagementSystem
         {
             if (e.RowIndex >= 0)
             {
-                // Get the selected row
                 DataGridViewRow selectedRow = dgvLoan.Rows[e.RowIndex];
-
-                // Populate the form fields with the selected row's data
-                // This will automatically display the Username based on UserID
                 cbbUser.SelectedValue = selectedRow.Cells["UserID"].Value;
                 cbbBook.SelectedValue = selectedRow.Cells["BookID"].Value;
                 dtpLoanDate.Value = Convert.ToDateTime(selectedRow.Cells["LoanDate"].Value);
                 dtpReturnDate.Value = Convert.ToDateTime(selectedRow.Cells["ReturnDate"].Value);
 
-                // Check if ActualReturnDate is null before assigning it
                 if (selectedRow.Cells["ActualReturnDate"].Value != DBNull.Value)
                 {
                     dtpActualReturnDate.Value = Convert.ToDateTime(selectedRow.Cells["ActualReturnDate"].Value);
                 }
                 else
                 {
-                    dtpActualReturnDate.Value = DateTime.Now; // Set to current date if no actual return date
+                    dtpActualReturnDate.Value = DateTime.Now;
                 }
+
+                // Ensure Status is set correctly
+                cbbStatus.SelectedItem = selectedRow.Cells["Status"].Value.ToString();
 
                 txtFine.Text = selectedRow.Cells["Fine"].Value.ToString();
                 txtRefCode.Text = selectedRow.Cells["RefCode"].Value.ToString();
-
-                // Set edit mode to true and store the selected RefCode for updates
                 isEditMode = true;
                 selectedRefCode = txtRefCode.Text;
             }
@@ -347,5 +358,32 @@ namespace LibraryManagementSystem
                 MessageBox.Show("No records to export.", "Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+        private void UpdateReservationStatus(int userID, int bookID, string loanStatus, SqlConnection connection)
+        {
+            string reservationStatus = loanStatus switch
+            {
+                "completed" => "completed",
+                "active" => "completed",
+                "pending" => "active",
+                _ => null // Không thay đổi nếu trạng thái không khớp
+            };
+
+            if (reservationStatus != null)
+            {
+                string updateQuery = "UPDATE Reservation SET Status = @ReservationStatus " +
+                                     "WHERE UserID = @UserID AND BookID = @BookID AND Status != 'completed' " +
+                                     "AND ReservationDate = (SELECT MAX(ReservationDate) FROM Reservation WHERE UserID = @UserID AND BookID = @BookID)";
+
+                using (SqlCommand command = new SqlCommand(updateQuery, connection))
+                {
+                    command.Parameters.AddWithValue("@ReservationStatus", reservationStatus);
+                    command.Parameters.AddWithValue("@UserID", userID);
+                    command.Parameters.AddWithValue("@BookID", bookID);
+                    command.ExecuteNonQuery();
+                }
+            }
+        }
     }
+
 }

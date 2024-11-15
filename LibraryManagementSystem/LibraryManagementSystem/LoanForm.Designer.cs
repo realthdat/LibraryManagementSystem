@@ -198,7 +198,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(799, 450);
+            ClientSize = new Size(815, 462);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "LoanForm";

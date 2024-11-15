@@ -32,6 +32,8 @@
             lblWelcomeBack = new Label();
             pictureBox2 = new PictureBox();
             panel1 = new Panel();
+            btnManageReservation = new Button();
+            btnManageLoan = new Button();
             btnLogout = new Button();
             btnReservation = new Button();
             btnReturn = new Button();
@@ -75,6 +77,8 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnManageReservation);
+            panel1.Controls.Add(btnManageLoan);
             panel1.Controls.Add(btnLogout);
             panel1.Controls.Add(btnReservation);
             panel1.Controls.Add(btnReturn);
@@ -85,6 +89,26 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(275, 640);
             panel1.TabIndex = 2;
+            // 
+            // btnManageReservation
+            // 
+            btnManageReservation.Location = new Point(6, 502);
+            btnManageReservation.Name = "btnManageReservation";
+            btnManageReservation.Size = new Size(265, 63);
+            btnManageReservation.TabIndex = 7;
+            btnManageReservation.Text = "Manage Reservation";
+            btnManageReservation.UseVisualStyleBackColor = true;
+            btnManageReservation.Click += btnManageReservation_Click;
+            // 
+            // btnManageLoan
+            // 
+            btnManageLoan.Location = new Point(6, 433);
+            btnManageLoan.Name = "btnManageLoan";
+            btnManageLoan.Size = new Size(265, 63);
+            btnManageLoan.TabIndex = 6;
+            btnManageLoan.Text = "Manage Loan";
+            btnManageLoan.UseVisualStyleBackColor = true;
+            btnManageLoan.Click += btnManageLoan_Click;
             // 
             // btnLogout
             // 
@@ -177,5 +201,7 @@
         private PictureBox pictureBox1;
         private Label lblWelcomeBack;
         private PictureBox pictureBox2;
+        private Button btnManageReservation;
+        private Button btnManageLoan;
     }
 }

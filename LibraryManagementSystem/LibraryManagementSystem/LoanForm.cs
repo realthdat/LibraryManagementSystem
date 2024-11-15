@@ -238,13 +238,14 @@ namespace LibraryManagementSystem
                             refCode = GenerateRefCode(connection, transaction);
 
                             // Step 3: Insert a new record into the Loan table with the ref code
-                            string insertLoanQuery = "INSERT INTO Loan (UserID, BookID, LoanDate, ReturnDate, RefCode) VALUES (@UserID, @BookID, @LoanDate, @ReturnDate, @RefCode)";
+                            string insertLoanQuery = "INSERT INTO Loan (UserID, BookID, LoanDate, ReturnDate, Status, RefCode) VALUES (@UserID, @BookID, @LoanDate, @ReturnDate, @Status, @RefCode)";
                             using (SqlCommand insertCommand = new SqlCommand(insertLoanQuery, connection, transaction))
                             {
                                 insertCommand.Parameters.AddWithValue("@UserID", userID);
                                 insertCommand.Parameters.AddWithValue("@BookID", bookID);
                                 insertCommand.Parameters.AddWithValue("@LoanDate", loanDate);
                                 insertCommand.Parameters.AddWithValue("@ReturnDate", returnDate);
+                                insertCommand.Parameters.AddWithValue("@Status", "active");
                                 insertCommand.Parameters.AddWithValue("@RefCode", refCode);
 
                                 insertCommand.ExecuteNonQuery();

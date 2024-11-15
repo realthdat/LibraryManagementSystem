@@ -194,7 +194,7 @@ namespace LibraryManagementSystem
                 MessageBox.Show("No overdue fee to pay.", "Return Info", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
-            // Cập nhật ngày trả và phí phạt vào bảng Loan
+            // Cập nhật ngày trả, phí phạt và trạng thái vào bảng Loan
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
                 connection.Open();
@@ -202,11 +202,12 @@ namespace LibraryManagementSystem
                 {
                     try
                     {
-                        string updateLoanQuery = "UPDATE Loan SET ActualReturnDate = @ActualReturnDate, Fine = @Fine WHERE LoanID = @LoanID";
+                        string updateLoanQuery = "UPDATE Loan SET ActualReturnDate = @ActualReturnDate, Fine = @Fine, Status = @Status WHERE LoanID = @LoanID";
                         using (SqlCommand command = new SqlCommand(updateLoanQuery, connection, transaction))
                         {
                             command.Parameters.AddWithValue("@ActualReturnDate", actualReturnDate);
                             command.Parameters.AddWithValue("@Fine", overdueFee);
+                            command.Parameters.AddWithValue("@Status", "completed"); // Update status to "Completed"
                             command.Parameters.AddWithValue("@LoanID", loanID);
 
                             int result = command.ExecuteNonQuery();
@@ -242,6 +243,7 @@ namespace LibraryManagementSystem
                     }
                 }
             }
+
         }
 
         private void ReturnForm_Load(object sender, EventArgs e)

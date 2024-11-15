@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LibraryManagementSystem
-build_property.ProjectDir = D:\Phan tich thiet ke va yeu cau\LibraryManagementSystem\LibraryManagementSystem\
+build_property.ProjectDir = D:\Git\LibraryManagementSystem\LibraryManagementSystem\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

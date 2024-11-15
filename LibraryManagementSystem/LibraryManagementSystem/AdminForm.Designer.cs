@@ -77,7 +77,7 @@
             btnManageReport.Name = "btnManageReport";
             btnManageReport.Size = new Size(265, 63);
             btnManageReport.TabIndex = 6;
-            btnManageReport.Text = "Report";
+            btnManageReport.Text = "Generate Report";
             btnManageReport.UseVisualStyleBackColor = true;
             btnManageReport.Click += btnManageReport_Click;
             // 
@@ -87,7 +87,7 @@
             btnManageReservation.Name = "btnManageReservation";
             btnManageReservation.Size = new Size(265, 63);
             btnManageReservation.TabIndex = 5;
-            btnManageReservation.Text = "Reservation";
+            btnManageReservation.Text = "Manage Reservation";
             btnManageReservation.UseVisualStyleBackColor = true;
             btnManageReservation.Click += btnManageReservation_Click;
             // 
@@ -107,7 +107,7 @@
             btnInventory.Name = "btnInventory";
             btnInventory.Size = new Size(265, 63);
             btnInventory.TabIndex = 3;
-            btnInventory.Text = "Inventory";
+            btnInventory.Text = "Manage Book Inventory";
             btnInventory.UseVisualStyleBackColor = true;
             btnInventory.Click += btnInventory_Click_1;
             // 

@@ -8,6 +8,7 @@ namespace LibraryManagementSystem
 {
     public partial class Dashboard : Form
     {
+
         public Dashboard()
         {
             InitializeComponent();
@@ -65,9 +66,20 @@ namespace LibraryManagementSystem
                 Name = "LoanData"
             };
 
-            // Adding data points
-            loanSeries.Points.AddXY("Today", todayCount);
-            loanSeries.Points.AddXY("All Time", allTimeCount);
+            // Adding data points with labels
+            loanSeries.Points.Add(new DataPoint
+            {
+                AxisLabel = "Today",
+                YValues = new double[] { todayCount },
+                Label = $"Today: {todayCount}"
+            });
+
+            loanSeries.Points.Add(new DataPoint
+            {
+                AxisLabel = "All Time",
+                YValues = new double[] { allTimeCount },
+                Label = $"All Time: {allTimeCount}"
+            });
 
             loanChartViewer.Series.Add(loanSeries);
             loanChartViewer.Invalidate(); // Refresh the chart
@@ -90,12 +102,24 @@ namespace LibraryManagementSystem
             {
                 ChartType = SeriesChartType.Bar,
                 ChartArea = "ReservationArea",
-                Name = "ReservationData"
+                Name = "ReservationData",
+                IsValueShownAsLabel = true // Display value as label
             };
 
-            // Adding data points
-            reservationSeries.Points.AddXY("Today", todayCount);
-            reservationSeries.Points.AddXY("All Time", allTimeCount);
+            // Adding data points with labels
+            reservationSeries.Points.Add(new DataPoint
+            {
+                AxisLabel = "Today",
+                YValues = new double[] { todayCount },
+                Label = $"Today: {todayCount}"
+            });
+
+            reservationSeries.Points.Add(new DataPoint
+            {
+                AxisLabel = "All Time",
+                YValues = new double[] { allTimeCount },
+                Label = $"All Time: {allTimeCount}"
+            });
 
             reservationChartViewer.Series.Add(reservationSeries);
             reservationChartViewer.Invalidate(); // Refresh the chart

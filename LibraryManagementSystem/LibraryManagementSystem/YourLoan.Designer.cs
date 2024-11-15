@@ -55,7 +55,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(730, 464);
+            ClientSize = new Size(769, 450);
             Controls.Add(label1);
             Controls.Add(dgvLoans);
             Name = "YourLoan";

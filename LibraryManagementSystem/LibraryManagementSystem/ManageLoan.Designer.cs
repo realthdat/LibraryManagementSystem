@@ -52,6 +52,8 @@
             label1 = new Label();
             dgvLoan = new DataGridView();
             panel1 = new Panel();
+            cbbStatus = new ComboBox();
+            label7 = new Label();
             groupBox1.SuspendLayout();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgvLoan).BeginInit();
@@ -116,7 +118,7 @@
             groupBox1.Controls.Add(btnSave);
             groupBox1.Controls.Add(btnEdit);
             groupBox1.Controls.Add(btnAdd);
-            groupBox1.Location = new Point(12, 447);
+            groupBox1.Location = new Point(12, 502);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(776, 67);
             groupBox1.TabIndex = 5;
@@ -135,6 +137,8 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(cbbStatus);
+            panel2.Controls.Add(label7);
             panel2.Controls.Add(label6);
             panel2.Controls.Add(txtRefCode);
             panel2.Controls.Add(label8);
@@ -151,13 +155,13 @@
             panel2.Controls.Add(label1);
             panel2.Location = new Point(487, 12);
             panel2.Name = "panel2";
-            panel2.Size = new Size(301, 426);
+            panel2.Size = new Size(301, 484);
             panel2.TabIndex = 4;
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(12, 379);
+            label6.Location = new Point(12, 452);
             label6.Name = "label6";
             label6.Size = new Size(57, 15);
             label6.TabIndex = 35;
@@ -165,7 +169,7 @@
             // 
             // txtRefCode
             // 
-            txtRefCode.Location = new Point(89, 376);
+            txtRefCode.Location = new Point(89, 449);
             txtRefCode.Name = "txtRefCode";
             txtRefCode.Size = new Size(184, 23);
             txtRefCode.TabIndex = 7;
@@ -173,7 +177,7 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(12, 336);
+            label8.Location = new Point(12, 409);
             label8.Name = "label8";
             label8.Size = new Size(29, 15);
             label8.TabIndex = 33;
@@ -181,7 +185,7 @@
             // 
             // txtFine
             // 
-            txtFine.Location = new Point(89, 333);
+            txtFine.Location = new Point(89, 406);
             txtFine.Name = "txtFine";
             txtFine.Size = new Size(184, 23);
             txtFine.TabIndex = 6;
@@ -273,7 +277,7 @@
             dgvLoan.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvLoan.Location = new Point(12, 6);
             dgvLoan.Name = "dgvLoan";
-            dgvLoan.Size = new Size(446, 406);
+            dgvLoan.Size = new Size(446, 466);
             dgvLoan.TabIndex = 0;
             dgvLoan.CellContentClick += dgvLoan_CellContentClick;
             // 
@@ -282,14 +286,31 @@
             panel1.Controls.Add(dgvLoan);
             panel1.Location = new Point(12, 12);
             panel1.Name = "panel1";
-            panel1.Size = new Size(469, 426);
+            panel1.Size = new Size(469, 484);
             panel1.TabIndex = 3;
+            // 
+            // cbbStatus
+            // 
+            cbbStatus.FormattingEnabled = true;
+            cbbStatus.Location = new Point(89, 351);
+            cbbStatus.Name = "cbbStatus";
+            cbbStatus.Size = new Size(184, 23);
+            cbbStatus.TabIndex = 36;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(12, 354);
+            label7.Name = "label7";
+            label7.Size = new Size(39, 15);
+            label7.TabIndex = 37;
+            label7.Text = "Status";
             // 
             // ManageLoan
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(811, 529);
+            ClientSize = new Size(811, 581);
             Controls.Add(groupBox1);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -330,5 +351,7 @@
         private TextBox txtRefCode;
         private Label label8;
         private TextBox txtFine;
+        private ComboBox cbbStatus;
+        private Label label7;
     }
 }

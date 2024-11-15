@@ -7,6 +7,9 @@
     <Compile Update="BookManagementForm.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="BorrowRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -29,6 +32,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ReservationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReservationRequest.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="ReturnForm.cs">

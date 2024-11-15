@@ -68,5 +68,15 @@ namespace LibraryManagementSystem
         {
 
         }
+
+        private void btnRequestBorrow_Click(object sender, EventArgs e)
+        {
+            openForm(new BorrowRequest(username));
+        }
+
+        private void btnRequestReservation_Click(object sender, EventArgs e)
+        {
+            openForm(new ReservationRequest(username));
+        }
     }
 }

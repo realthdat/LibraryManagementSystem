@@ -1,161 +1,177 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\",
+  "WorkspaceRootPath": "D:\\Git\\LibraryManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\returnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\returnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\returnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\returnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\yourreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\readerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\readerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\managereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\managereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\managereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\managereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\readerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\readerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\yourreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\yourreservation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourreservation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\librarymanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\reservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\reservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\reservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\reservationrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\returnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\returnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\readerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\readerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\readerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\readerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\reservationform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\managereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\managereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\managereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\managereservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\librarymanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\librarymanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\usermanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\usermanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\yourreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\yourreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loanform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\returnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\returnform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\yourreservation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourreservation.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\usermanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\usermanagementform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\loanform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\loanform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loanform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\phan tich thiet ke va yeu cau\\librarymanagementsystem\\librarymanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
@@ -175,313 +191,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UserForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\UserForm.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
+              "Title": "BorrowRequest.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BorrowRequest.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BorrowRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAP8AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:57:09.303Z",
+              "WhenOpened": "2024-11-15T01:48:25.841Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "YourLoan.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\YourLoan.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\YourLoan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T02:57:00.598Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "YourLoan.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\YourLoan.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\YourLoan.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAA5wCAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:00:11.277Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserProfileForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserProfileForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\UserProfileForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:42:56.531Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserProfileForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserProfileForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\UserProfileForm.cs",
-              "ViewState": "AgIAAGQAAAAAAAAAAAAcwHMAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:28:39.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoginForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:26:55.399Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoginForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\LoginForm.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAowDsAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:36:26.924Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\UserForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:55:43.694Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReturnForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\ReturnForm.cs",
-              "ViewState": "AgIAADYBAAAAAAAAAAAjwCkBAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:49:38.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ReturnForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ReturnForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:54:26.021Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ReservationForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\ReservationForm.cs",
-              "ViewState": "AgIAAMQBAAAAAAAAAAAuwLkBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T12:31:03.403Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ReservationForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ReservationForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:14:46.108Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Report.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\Report.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\Report.cs",
-              "ViewState": "AgIAAOYAAAAAAAAAAAAowOQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:36:45.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Report.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\Report.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\Report.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:36:37.952Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:26:40.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UserManagementForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserManagementForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\UserManagementForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:30:37.21Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "YourReservation.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\YourReservation.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\YourReservation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:18:55.512Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UserManagementForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserManagementForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\UserManagementForm.cs",
-              "ViewState": "AgIAABoBAAAAAAAAAAAowCIBAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T14:37:12.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ReaderForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReaderForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ReaderForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:47:59.027Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ManageReservation.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReservation.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\ManageReservation.cs",
-              "ViewState": "AgIAABUBAAAAAAAAAAAowEkBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:17:40.462Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ManageReservation.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReservation.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ManageReservation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:10:53.188Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ManageLoan.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageLoan.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\ManageLoan.cs",
-              "ViewState": "AgIAABYBAAAAAAAAAAAgwFsBAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:52:41.932Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ManageLoan.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageLoan.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ManageLoan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:43:02.666Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LoanForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\LoanForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:37:46.641Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
               "Title": "Dashboard.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\Dashboard.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs [Design]",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs [Design]",
               "RelativeToolTip": "LibraryManagementSystem\\Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T08:53:57.085Z",
@@ -489,36 +215,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "BookManagementForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\BookManagementForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\BookManagementForm.cs",
-              "ViewState": "AgIAAE8BAAAAAAAAAAAowGgBAAAlAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Dashboard.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Dashboard.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Dashboard.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAxwG8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T13:57:35.225Z",
+              "WhenOpened": "2024-11-13T01:27:45.063Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BookManagementForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\BookManagementForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\BookManagementForm.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "ManageLoan.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageLoan.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ManageLoan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:14:54.853Z",
+              "WhenOpened": "2024-11-12T15:43:02.666Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 2,
+              "Title": "ManageLoan.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageLoan.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\ManageLoan.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAqwHwBAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:52:41.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "AdminForm.cs [Design]",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\AdminForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs [Design]",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs [Design]",
               "RelativeToolTip": "LibraryManagementSystem\\AdminForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T08:21:15.129Z",
@@ -526,102 +265,228 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Connection.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\Connection.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Connection.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\Connection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\AdminForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\AdminForm.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAuwBQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:19:10.284Z",
+              "WhenOpened": "2024-11-12T15:36:18.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservationRequest.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationRequest.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\ReservationRequest.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAtwNoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:08:01.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "LoanForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\LoanForm.cs",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAiwCABAAAdAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ReservationRequest.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationRequest.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ReservationRequest.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:14:35.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T06:04:29.098Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 7,
+              "Title": "BorrowRequest.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BorrowRequest.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\BorrowRequest.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:38:11.676Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ReturnForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ReturnForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:54:26.021Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "ReaderForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ReaderForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs",
               "RelativeToolTip": "LibraryManagementSystem\\ReaderForm.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAEwEQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAvwFAAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T02:52:46.616Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 12,
+              "Title": "ReaderForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReaderForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ReaderForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:47:59.027Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:26:40.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReservationForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\ReservationForm.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAiwPQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T12:31:03.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReservationForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ReservationForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:14:46.108Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ManageReservation.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReservation.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\ManageReservation.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAkwG0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:17:40.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ManageReservation.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReservation.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ManageReservation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:10:53.188Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserManagementForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserManagementForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\UserManagementForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:37:12.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "YourReservation.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\YourReservation.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs",
               "RelativeToolTip": "LibraryManagementSystem\\YourReservation.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAIwB8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwC0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T03:23:50.549Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "YourReservation.Designer.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.Designer.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\YourReservation.Designer.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.Designer.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\YourReservation.Designer.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwCwAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "YourLoan.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\YourLoan.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\YourLoan.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwC8AAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T03:19:58.983Z",
+              "WhenOpened": "2024-11-13T03:00:11.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AdminForm.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\AdminForm.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\AdminForm.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAhwBUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "YourReservation.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\YourReservation.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\YourReservation.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:36:18.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T03:18:55.512Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "Dashboard.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\Dashboard.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\Dashboard.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAIwGEAAABFAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "YourLoan.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\YourLoan.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\YourLoan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T01:27:45.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T02:57:00.598Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 18,
               "Title": "LibraryManagementSystem.csproj",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\LibraryManagementSystem.csproj",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
               "RelativeToolTip": "LibraryManagementSystem\\LibraryManagementSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -630,11 +495,211 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UserManagementForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserManagementForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\UserManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T14:30:37.21Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\UserForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:55:43.694Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserProfileForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserProfileForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\UserProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:42:56.531Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\UserForm.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAawFIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T01:57:09.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LoanForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\LoanForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:37:46.641Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Connection.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Connection.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Connection.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:19:10.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "LoanForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\LoanForm.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAQwPYAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:14:35.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ReturnForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\ReturnForm.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAgwNUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:49:38.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoginForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:26:55.399Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UserProfileForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserProfileForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\UserProfileForm.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:28:39.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Report.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Report.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\Report.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:36:37.952Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "BookManagementForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BookManagementForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\BookManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:14:54.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Report.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Report.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAowOQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:36:45.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 36,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoginForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\LoginForm.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAowDsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:36:26.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "BookManagementForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BookManagementForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BookManagementForm.cs",
+              "ViewState": "AgIAAE8BAAAAAAAAAAAowGgBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:57:35.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "YourReservation.Designer.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.Designer.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\YourReservation.Designer.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.Designer.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\YourReservation.Designer.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T03:19:58.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
               "Title": "UserManagementForm.Designer.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.Designer.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.Designer.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\UserManagementForm.Designer.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.Designer.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.Designer.cs",
               "RelativeToolTip": "LibraryManagementSystem\\UserManagementForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -643,11 +708,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "LoanForm.Designer.cs",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.Designer.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.Designer.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.Designer.cs",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.Designer.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.Designer.cs",
               "RelativeToolTip": "LibraryManagementSystem\\LoanForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAANYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -656,16 +721,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\App.config",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\App.config",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\App.config",
-              "ToolTip": "D:\\Phan tich thiet ke va yeu cau\\LibraryManagementSystem\\LibraryManagementSystem\\App.config",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\App.config",
               "RelativeToolTip": "LibraryManagementSystem\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-11-12T10:21:44.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T10:21:44.074Z"
             }
           ]
         }
