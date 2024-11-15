@@ -154,5 +154,12 @@ namespace LibraryManagementSystem
                 Application.Exit(); // Thoát ứng dụng nếu người dùng chọn "Yes"
             }
         }
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            RegisterForm frm = new RegisterForm();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

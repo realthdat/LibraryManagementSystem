@@ -90,3 +90,4 @@ D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Release\net8.0-window
 D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Release\net8.0-windows\LibraryManagementSystem.genruntimeconfig.cache
 D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Release\net8.0-windows\ref\LibraryManagementSystem.dll
 D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Release\net8.0-windows\LibraryManagementSystem.ManageReader.resources
+D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Release\net8.0-windows\LibraryManagementSystem.RegisterForm.resources

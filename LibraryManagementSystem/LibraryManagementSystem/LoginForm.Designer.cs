@@ -40,6 +40,7 @@
             panel2 = new Panel();
             pictureBox2 = new PictureBox();
             pictureBox = new PictureBox();
+            btnRegister = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -93,7 +94,7 @@
             // 
             // btnLogin
             // 
-            btnLogin.Location = new Point(120, 357);
+            btnLogin.Location = new Point(120, 341);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(91, 38);
             btnLogin.TabIndex = 4;
@@ -132,6 +133,7 @@
             // 
             // panel2
             // 
+            panel2.Controls.Add(btnRegister);
             panel2.Controls.Add(pictureBox2);
             panel2.Controls.Add(txtUsername);
             panel2.Controls.Add(btnLogin);
@@ -141,7 +143,7 @@
             panel2.Controls.Add(txtPassword);
             panel2.Location = new Point(563, 52);
             panel2.Name = "panel2";
-            panel2.Size = new Size(330, 457);
+            panel2.Size = new Size(330, 467);
             panel2.TabIndex = 7;
             // 
             // pictureBox2
@@ -164,6 +166,16 @@
             pictureBox.TabIndex = 7;
             pictureBox.TabStop = false;
             pictureBox.Click += pictureBox_Click;
+            // 
+            // btnRegister
+            // 
+            btnRegister.Location = new Point(59, 419);
+            btnRegister.Name = "btnRegister";
+            btnRegister.Size = new Size(211, 38);
+            btnRegister.TabIndex = 7;
+            btnRegister.Text = "Create an account";
+            btnRegister.UseVisualStyleBackColor = true;
+            btnRegister.Click += btnRegister_Click;
             // 
             // LoginForm
             // 
@@ -201,5 +213,6 @@
         private PictureBox pictureBox2;
         private PictureBox pictureBox;
         private PictureBox pictureBox3;
+        private Button btnRegister;
     }
 }
