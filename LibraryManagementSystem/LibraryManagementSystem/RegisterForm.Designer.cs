@@ -98,7 +98,7 @@
             chkShowPassword.Location = new Point(115, 143);
             chkShowPassword.Name = "chkShowPassword";
             chkShowPassword.Size = new Size(108, 19);
-            chkShowPassword.TabIndex = 11;
+            chkShowPassword.TabIndex = 4;
             chkShowPassword.Text = "Show Password";
             chkShowPassword.UseVisualStyleBackColor = true;
             chkShowPassword.CheckedChanged += chkShowPassword_CheckedChanged;
@@ -108,7 +108,7 @@
             btnReturn.Location = new Point(59, 419);
             btnReturn.Name = "btnReturn";
             btnReturn.Size = new Size(211, 38);
-            btnReturn.TabIndex = 26;
+            btnReturn.TabIndex = 10;
             btnReturn.Text = "Return Login Form";
             btnReturn.UseVisualStyleBackColor = true;
             btnReturn.Click += btnReturn_Click;
@@ -118,7 +118,7 @@
             btnRegister.Location = new Point(115, 360);
             btnRegister.Name = "btnRegister";
             btnRegister.Size = new Size(91, 38);
-            btnRegister.TabIndex = 25;
+            btnRegister.TabIndex = 9;
             btnRegister.Text = "Register";
             btnRegister.UseVisualStyleBackColor = true;
             btnRegister.Click += btnRegister_Click;
@@ -138,7 +138,7 @@
             txtConfirmPassword.Location = new Point(115, 108);
             txtConfirmPassword.Name = "txtConfirmPassword";
             txtConfirmPassword.Size = new Size(184, 23);
-            txtConfirmPassword.TabIndex = 23;
+            txtConfirmPassword.TabIndex = 3;
             txtConfirmPassword.TextChanged += textBox1_TextChanged;
             // 
             // txtFullName
@@ -146,7 +146,7 @@
             txtFullName.Location = new Point(115, 178);
             txtFullName.Name = "txtFullName";
             txtFullName.Size = new Size(184, 23);
-            txtFullName.TabIndex = 3;
+            txtFullName.TabIndex = 5;
             // 
             // label8
             // 
@@ -162,7 +162,7 @@
             txtAddress.Location = new Point(115, 316);
             txtAddress.Name = "txtAddress";
             txtAddress.Size = new Size(184, 23);
-            txtAddress.TabIndex = 7;
+            txtAddress.TabIndex = 8;
             // 
             // label7
             // 
@@ -178,7 +178,7 @@
             txtPhoneNo.Location = new Point(115, 268);
             txtPhoneNo.Name = "txtPhoneNo";
             txtPhoneNo.Size = new Size(184, 23);
-            txtPhoneNo.TabIndex = 6;
+            txtPhoneNo.TabIndex = 7;
             // 
             // label5
             // 
@@ -194,7 +194,7 @@
             txtEmail.Location = new Point(115, 223);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(184, 23);
-            txtEmail.TabIndex = 5;
+            txtEmail.TabIndex = 6;
             // 
             // label3
             // 

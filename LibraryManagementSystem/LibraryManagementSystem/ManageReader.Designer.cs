@@ -106,21 +106,21 @@
             cbbStatus.Location = new Point(95, 338);
             cbbStatus.Name = "cbbStatus";
             cbbStatus.Size = new Size(184, 23);
-            cbbStatus.TabIndex = 31;
+            cbbStatus.TabIndex = 8;
             // 
             // txtUsername
             // 
             txtUsername.Location = new Point(95, 18);
             txtUsername.Name = "txtUsername";
             txtUsername.Size = new Size(184, 23);
-            txtUsername.TabIndex = 23;
+            txtUsername.TabIndex = 1;
             // 
             // txtFullName
             // 
             txtFullName.Location = new Point(95, 106);
             txtFullName.Name = "txtFullName";
             txtFullName.Size = new Size(184, 23);
-            txtFullName.TabIndex = 25;
+            txtFullName.TabIndex = 3;
             // 
             // label1
             // 
@@ -145,14 +145,14 @@
             txtPassword.Location = new Point(95, 62);
             txtPassword.Name = "txtPassword";
             txtPassword.Size = new Size(184, 23);
-            txtPassword.TabIndex = 24;
+            txtPassword.TabIndex = 2;
             // 
             // txtAddress
             // 
             txtAddress.Location = new Point(95, 287);
             txtAddress.Name = "txtAddress";
             txtAddress.Size = new Size(184, 23);
-            txtAddress.TabIndex = 30;
+            txtAddress.TabIndex = 7;
             // 
             // label2
             // 
@@ -169,7 +169,7 @@
             cbbRole.Location = new Point(95, 150);
             cbbRole.Name = "cbbRole";
             cbbRole.Size = new Size(184, 23);
-            cbbRole.TabIndex = 26;
+            cbbRole.TabIndex = 4;
             // 
             // label3
             // 
@@ -203,14 +203,14 @@
             txtPhoneNo.Location = new Point(95, 239);
             txtPhoneNo.Name = "txtPhoneNo";
             txtPhoneNo.Size = new Size(184, 23);
-            txtPhoneNo.TabIndex = 28;
+            txtPhoneNo.TabIndex = 6;
             // 
             // txtEmail
             // 
             txtEmail.Location = new Point(95, 194);
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(184, 23);
-            txtEmail.TabIndex = 27;
+            txtEmail.TabIndex = 5;
             // 
             // label6
             // 

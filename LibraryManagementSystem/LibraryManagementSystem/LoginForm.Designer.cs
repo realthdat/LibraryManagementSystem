@@ -38,9 +38,9 @@
             pictureBox3 = new PictureBox();
             pictureBox1 = new PictureBox();
             panel2 = new Panel();
+            btnRegister = new Button();
             pictureBox2 = new PictureBox();
             pictureBox = new PictureBox();
-            btnRegister = new Button();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -146,6 +146,16 @@
             panel2.Size = new Size(330, 467);
             panel2.TabIndex = 7;
             // 
+            // btnRegister
+            // 
+            btnRegister.Location = new Point(59, 419);
+            btnRegister.Name = "btnRegister";
+            btnRegister.Size = new Size(211, 38);
+            btnRegister.TabIndex = 5;
+            btnRegister.Text = "Create an account";
+            btnRegister.UseVisualStyleBackColor = true;
+            btnRegister.Click += btnRegister_Click;
+            // 
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.avatar1;
@@ -166,16 +176,6 @@
             pictureBox.TabIndex = 7;
             pictureBox.TabStop = false;
             pictureBox.Click += pictureBox_Click;
-            // 
-            // btnRegister
-            // 
-            btnRegister.Location = new Point(59, 419);
-            btnRegister.Name = "btnRegister";
-            btnRegister.Size = new Size(211, 38);
-            btnRegister.TabIndex = 7;
-            btnRegister.Text = "Create an account";
-            btnRegister.UseVisualStyleBackColor = true;
-            btnRegister.Click += btnRegister_Click;
             // 
             // LoginForm
             // 

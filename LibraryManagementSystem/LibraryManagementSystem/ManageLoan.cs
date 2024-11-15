@@ -167,8 +167,7 @@ namespace LibraryManagementSystem
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            if (cbbUser.SelectedItem is KeyValuePair<int, string> selectedUser &&
-        cbbBook.SelectedItem is KeyValuePair<int, string> selectedBook)
+            if (cbbUser.SelectedItem is KeyValuePair<int, string> selectedUser && cbbBook.SelectedItem is KeyValuePair<int, string> selectedBook)
             {
                 int userID = selectedUser.Key;
                 int bookID = selectedBook.Key;
@@ -208,6 +207,9 @@ namespace LibraryManagementSystem
                     int result = command.ExecuteNonQuery();
                     if (result > 0)
                     {
+                        // Cập nhật số lượng sách dựa trên trạng thái Loan
+                        UpdateBookStock(bookID, status, connection);
+
                         // Cập nhật trạng thái Reservation dựa trên trạng thái Loan
                         UpdateReservationStatus(userID, bookID, status, connection);
 
@@ -225,6 +227,30 @@ namespace LibraryManagementSystem
             else
             {
                 MessageBox.Show("Please select valid User and Book.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void UpdateBookStock(int bookID, string status, SqlConnection connection)
+        {
+            string updateStockQuery = "";
+            if (status == "active")
+            {
+                // Nếu trạng thái loan là active, giảm số lượng sách đi 1
+                updateStockQuery = "UPDATE Book SET Totalcopies = Totalcopies - 1 WHERE BookID = @BookID";
+            }
+            else if (status == "completed" || status == "pending")
+            {
+                // Nếu trạng thái loan là completed hoặc pending, tăng số lượng sách lên 1
+                updateStockQuery = "UPDATE Book SET Totalcopies = Totalcopies + 1 WHERE BookID = @BookID";
+            }
+
+            if (!string.IsNullOrEmpty(updateStockQuery))
+            {
+                using (SqlCommand updateStockCommand = new SqlCommand(updateStockQuery, connection))
+                {
+                    updateStockCommand.Parameters.AddWithValue("@BookID", bookID);
+                    updateStockCommand.ExecuteNonQuery();
+                }
             }
         }
 

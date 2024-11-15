@@ -259,6 +259,25 @@ namespace LibraryManagementSystem
                                 updateCopiesCommand.ExecuteNonQuery();
                             }
 
+                            // Step 5: Check if TotalCopies is 0 and update status to 'unavailable' if necessary
+                            string checkBookCopiesQuery = "SELECT Totalcopies FROM Book WHERE BookID = @BookID";
+                            using (SqlCommand checkCopiesCommand = new SqlCommand(checkBookCopiesQuery, connection, transaction))
+                            {
+                                checkCopiesCommand.Parameters.AddWithValue("@BookID", bookID);
+                                int remainingCopies = (int)checkCopiesCommand.ExecuteScalar();
+
+                                // If there are no copies left, update the status of the book to 'unavailable'
+                                if (remainingCopies == 0)
+                                {
+                                    string updateStatusQuery = "UPDATE Book SET Status = 'unavailable' WHERE BookID = @BookID";
+                                    using (SqlCommand updateStatusCommand = new SqlCommand(updateStatusQuery, connection, transaction))
+                                    {
+                                        updateStatusCommand.Parameters.AddWithValue("@BookID", bookID);
+                                        updateStatusCommand.ExecuteNonQuery();
+                                    }
+                                }
+                            }
+
                             // Commit the transaction
                             transaction.Commit();
 

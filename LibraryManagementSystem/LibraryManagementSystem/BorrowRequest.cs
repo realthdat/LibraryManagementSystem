@@ -211,12 +211,12 @@ namespace LibraryManagementSystem
                             }
 
                             // Step 4: Decrement the TotalCopies in the Book table
-                            string updateBookCopiesQuery = "UPDATE Book SET Totalcopies = Totalcopies - 1 WHERE BookID = @BookID";
-                            using (SqlCommand updateCopiesCommand = new SqlCommand(updateBookCopiesQuery, connection, transaction))
-                            {
-                                updateCopiesCommand.Parameters.AddWithValue("@BookID", bookID);
-                                updateCopiesCommand.ExecuteNonQuery();
-                            }
+                            //string updateBookCopiesQuery = "UPDATE Book SET Totalcopies = Totalcopies - 1 WHERE BookID = @BookID";
+                            //using (SqlCommand updateCopiesCommand = new SqlCommand(updateBookCopiesQuery, connection, transaction))
+                            //{
+                            //    updateCopiesCommand.Parameters.AddWithValue("@BookID", bookID);
+                            //    updateCopiesCommand.ExecuteNonQuery();
+                            //}
 
                             // Commit the transaction
                             transaction.Commit();
@@ -309,6 +309,7 @@ namespace LibraryManagementSystem
             return true; // All validations passed
         }
 
+   
         private void cbbBookTitle_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             // Lấy BookID từ sách đã chọn

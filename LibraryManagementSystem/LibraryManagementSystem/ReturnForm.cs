@@ -142,6 +142,7 @@ namespace LibraryManagementSystem
             // Lấy UserID và BookID
             int userID = GetUserIDFromUsername(username);
             int bookID = GetBookIDFromISBN(isbn);
+            string refCode = txtRefCode.Text;
 
             // Kiểm tra UserID và BookID có hợp lệ không
             if (userID == -1 || bookID == -1)
@@ -156,11 +157,12 @@ namespace LibraryManagementSystem
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
                 connection.Open();
-                string query = "SELECT TOP 1 LoanID, ReturnDate FROM Loan WHERE UserID = @UserID AND BookID = @BookID AND ActualReturnDate IS NULL ORDER BY LoanDate DESC";
+                string query = "SELECT TOP 1 LoanID, ReturnDate FROM Loan WHERE UserID = @UserID AND BookID = @BookID AND RefCode = @RefCode AND ActualReturnDate IS NULL ORDER BY LoanDate DESC";
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {
                     command.Parameters.AddWithValue("@UserID", userID);
                     command.Parameters.AddWithValue("@BookID", bookID);
+                    command.Parameters.AddWithValue("@RefCode", refCode);
 
                     using (SqlDataReader reader = command.ExecuteReader())
                     {
@@ -214,12 +216,20 @@ namespace LibraryManagementSystem
                             int result = command.ExecuteNonQuery();
                             if (result > 0)
                             {
-                                // Bước 2: Cập nhật lại TotalCopies trong bảng Book
+                                // Bước 1: Cập nhật lại TotalCopies trong bảng Book
                                 string updateBookCopiesQuery = "UPDATE Book SET Totalcopies = Totalcopies + 1 WHERE BookID = @BookID";
                                 using (SqlCommand updateCopiesCommand = new SqlCommand(updateBookCopiesQuery, connection, transaction))
                                 {
                                     updateCopiesCommand.Parameters.AddWithValue("@BookID", bookID);
                                     updateCopiesCommand.ExecuteNonQuery();
+                                }
+
+                                // Bước 2: Cập nhật trạng thái sách thành "available"
+                                string updateBookStatusQuery = "UPDATE Book SET Status = 'available' WHERE BookID = @BookID";
+                                using (SqlCommand updateStatusCommand = new SqlCommand(updateBookStatusQuery, connection, transaction))
+                                {
+                                    updateStatusCommand.Parameters.AddWithValue("@BookID", bookID);
+                                    updateStatusCommand.ExecuteNonQuery();
                                 }
 
                                 // Xác nhận giao dịch

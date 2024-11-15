@@ -91,14 +91,14 @@
             txtUsername.Name = "txtUsername";
             txtUsername.ReadOnly = true;
             txtUsername.Size = new Size(184, 23);
-            txtUsername.TabIndex = 30;
+            txtUsername.TabIndex = 1;
             // 
             // buttonRequest
             // 
             buttonRequest.Location = new Point(108, 373);
             buttonRequest.Name = "buttonRequest";
             buttonRequest.Size = new Size(103, 39);
-            buttonRequest.TabIndex = 7;
+            buttonRequest.TabIndex = 6;
             buttonRequest.Text = "Request Borrow ";
             buttonRequest.UseVisualStyleBackColor = true;
             buttonRequest.Click += buttonRequest_Click;
@@ -157,7 +157,7 @@
             txtPrice.Name = "txtPrice";
             txtPrice.ReadOnly = true;
             txtPrice.Size = new Size(184, 23);
-            txtPrice.TabIndex = 6;
+            txtPrice.TabIndex = 10;
             // 
             // label5
             // 

@@ -150,6 +150,23 @@ namespace LibraryManagementSystem
             string location = txtLocation.Text;
             int totalCopies = int.Parse(txtTotalCopies.Text);
 
+            // Kiểm tra nếu số lượng sách < 0
+            if (totalCopies < 0)
+            {
+                MessageBox.Show("Total copies cannot be less than 0.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return; // Dừng lại nếu số lượng sách không hợp lệ
+            }
+
+            // Xác định trạng thái của sách dựa trên số lượng
+            if (totalCopies > 0)
+            {
+                status = "available";
+            }
+            else
+            {
+                status = "unavailable";
+            }
+
             using (SqlConnection connection = DatabaseConnection.GetConnection())
             {
                 connection.Open();
@@ -194,6 +211,7 @@ namespace LibraryManagementSystem
                     MessageBox.Show("Failed to save book. Please try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
