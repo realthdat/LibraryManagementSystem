@@ -80,5 +80,10 @@ namespace LibraryManagementSystem
         {
             openForm(new ManageReservation());
         }
+
+        private void btnManageReader_Click(object sender, EventArgs e)
+        {
+            openForm(new ManageReader());
+        }
     }
 }

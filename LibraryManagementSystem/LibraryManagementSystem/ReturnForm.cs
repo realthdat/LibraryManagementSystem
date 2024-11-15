@@ -34,6 +34,7 @@ namespace LibraryManagementSystem
                             Loan.ReturnDate,
                             Loan.ActualReturnDate,
                             Loan.Fine,
+                            Loan.Status,
                             Loan.RefCode
                          FROM Loan
                          JOIN [User] ON Loan.UserID = [User].UserID

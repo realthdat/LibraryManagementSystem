@@ -40,6 +40,7 @@
             btnBorrow = new Button();
             btnEditProfile = new Button();
             pictureBox1 = new PictureBox();
+            btnManageReader = new Button();
             panel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
@@ -77,6 +78,7 @@
             // 
             // panel1
             // 
+            panel1.Controls.Add(btnManageReader);
             panel1.Controls.Add(btnManageReservation);
             panel1.Controls.Add(btnManageLoan);
             panel1.Controls.Add(btnLogout);
@@ -84,15 +86,14 @@
             panel1.Controls.Add(btnReturn);
             panel1.Controls.Add(btnBorrow);
             panel1.Controls.Add(btnEditProfile);
-            panel1.Controls.Add(pictureBox1);
-            panel1.Location = new Point(12, 8);
+            panel1.Location = new Point(12, 147);
             panel1.Name = "panel1";
-            panel1.Size = new Size(275, 640);
+            panel1.Size = new Size(275, 559);
             panel1.TabIndex = 2;
             // 
             // btnManageReservation
             // 
-            btnManageReservation.Location = new Point(6, 502);
+            btnManageReservation.Location = new Point(7, 417);
             btnManageReservation.Name = "btnManageReservation";
             btnManageReservation.Size = new Size(265, 63);
             btnManageReservation.TabIndex = 7;
@@ -102,7 +103,7 @@
             // 
             // btnManageLoan
             // 
-            btnManageLoan.Location = new Point(6, 433);
+            btnManageLoan.Location = new Point(7, 348);
             btnManageLoan.Name = "btnManageLoan";
             btnManageLoan.Size = new Size(265, 63);
             btnManageLoan.TabIndex = 6;
@@ -112,7 +113,7 @@
             // 
             // btnLogout
             // 
-            btnLogout.Location = new Point(6, 571);
+            btnLogout.Location = new Point(7, 486);
             btnLogout.Name = "btnLogout";
             btnLogout.Size = new Size(265, 63);
             btnLogout.TabIndex = 5;
@@ -122,7 +123,7 @@
             // 
             // btnReservation
             // 
-            btnReservation.Location = new Point(6, 295);
+            btnReservation.Location = new Point(7, 141);
             btnReservation.Name = "btnReservation";
             btnReservation.Size = new Size(265, 63);
             btnReservation.TabIndex = 3;
@@ -132,7 +133,7 @@
             // 
             // btnReturn
             // 
-            btnReturn.Location = new Point(6, 364);
+            btnReturn.Location = new Point(7, 210);
             btnReturn.Name = "btnReturn";
             btnReturn.Size = new Size(265, 63);
             btnReturn.TabIndex = 4;
@@ -142,7 +143,7 @@
             // 
             // btnBorrow
             // 
-            btnBorrow.Location = new Point(7, 226);
+            btnBorrow.Location = new Point(7, 72);
             btnBorrow.Name = "btnBorrow";
             btnBorrow.Size = new Size(265, 63);
             btnBorrow.TabIndex = 2;
@@ -152,7 +153,7 @@
             // 
             // btnEditProfile
             // 
-            btnEditProfile.Location = new Point(6, 157);
+            btnEditProfile.Location = new Point(7, 3);
             btnEditProfile.Name = "btnEditProfile";
             btnEditProfile.Size = new Size(265, 63);
             btnEditProfile.TabIndex = 1;
@@ -163,20 +164,31 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.librarian1;
-            pictureBox1.Location = new Point(7, 7);
+            pictureBox1.Location = new Point(18, 0);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(265, 144);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
             // 
+            // btnManageReader
+            // 
+            btnManageReader.Location = new Point(7, 279);
+            btnManageReader.Name = "btnManageReader";
+            btnManageReader.Size = new Size(265, 63);
+            btnManageReader.TabIndex = 8;
+            btnManageReader.Text = "Manage Reader";
+            btnManageReader.UseVisualStyleBackColor = true;
+            btnManageReader.Click += btnManageReader_Click;
+            // 
             // UserForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1107, 659);
+            ClientSize = new Size(1107, 702);
             Controls.Add(panel);
             Controls.Add(panel1);
+            Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "UserForm";
             StartPosition = FormStartPosition.CenterScreen;
@@ -203,5 +215,6 @@
         private PictureBox pictureBox2;
         private Button btnManageReservation;
         private Button btnManageLoan;
+        private Button btnManageReader;
     }
 }

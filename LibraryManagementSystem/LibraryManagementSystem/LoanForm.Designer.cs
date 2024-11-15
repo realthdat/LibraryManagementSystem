@@ -44,9 +44,24 @@
             dtpLoanDate = new DateTimePicker();
             panel1 = new Panel();
             dgv = new DataGridView();
+            groupBox1 = new GroupBox();
+            dtpReservationDate1 = new DateTimePicker();
+            label11 = new Label();
+            txtStatus = new TextBox();
+            label10 = new Label();
+            txtISBN1 = new TextBox();
+            label9 = new Label();
+            txtBookTitle = new TextBox();
+            label8 = new Label();
+            txtUsername = new TextBox();
+            label6 = new Label();
+            btnCheck = new Button();
+            label12 = new Label();
+            txtRefCode = new TextBox();
             panel2.SuspendLayout();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // label7
@@ -194,11 +209,144 @@
             dgv.Size = new Size(463, 420);
             dgv.TabIndex = 0;
             // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(dtpReservationDate1);
+            groupBox1.Controls.Add(label11);
+            groupBox1.Controls.Add(txtStatus);
+            groupBox1.Controls.Add(label10);
+            groupBox1.Controls.Add(txtISBN1);
+            groupBox1.Controls.Add(label9);
+            groupBox1.Controls.Add(txtBookTitle);
+            groupBox1.Controls.Add(label8);
+            groupBox1.Controls.Add(txtUsername);
+            groupBox1.Controls.Add(label6);
+            groupBox1.Location = new Point(15, 505);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(773, 100);
+            groupBox1.TabIndex = 47;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Reservation Information";
+            // 
+            // dtpReservationDate1
+            // 
+            dtpReservationDate1.Location = new Point(560, 60);
+            dtpReservationDate1.Name = "dtpReservationDate1";
+            dtpReservationDate1.Size = new Size(207, 23);
+            dtpReservationDate1.TabIndex = 50;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(560, 28);
+            label11.Name = "label11";
+            label11.Size = new Size(95, 15);
+            label11.TabIndex = 49;
+            label11.Text = "Reservation Date";
+            // 
+            // txtStatus
+            // 
+            txtStatus.Location = new Point(358, 63);
+            txtStatus.Name = "txtStatus";
+            txtStatus.ReadOnly = true;
+            txtStatus.Size = new Size(151, 23);
+            txtStatus.TabIndex = 47;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Location = new Point(281, 66);
+            label10.Name = "label10";
+            label10.Size = new Size(39, 15);
+            label10.TabIndex = 48;
+            label10.Text = "Status";
+            // 
+            // txtISBN1
+            // 
+            txtISBN1.Location = new Point(358, 25);
+            txtISBN1.Name = "txtISBN1";
+            txtISBN1.ReadOnly = true;
+            txtISBN1.Size = new Size(151, 23);
+            txtISBN1.TabIndex = 45;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(281, 28);
+            label9.Name = "label9";
+            label9.Size = new Size(32, 15);
+            label9.TabIndex = 46;
+            label9.Text = "ISBN";
+            // 
+            // txtBookTitle
+            // 
+            txtBookTitle.Location = new Point(98, 60);
+            txtBookTitle.Name = "txtBookTitle";
+            txtBookTitle.ReadOnly = true;
+            txtBookTitle.Size = new Size(151, 23);
+            txtBookTitle.TabIndex = 43;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(21, 63);
+            label8.Name = "label8";
+            label8.Size = new Size(59, 15);
+            label8.TabIndex = 44;
+            label8.Text = "Book Title";
+            // 
+            // txtUsername
+            // 
+            txtUsername.Location = new Point(98, 22);
+            txtUsername.Name = "txtUsername";
+            txtUsername.ReadOnly = true;
+            txtUsername.Size = new Size(151, 23);
+            txtUsername.TabIndex = 41;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(21, 25);
+            label6.Name = "label6";
+            label6.Size = new Size(60, 15);
+            label6.TabIndex = 42;
+            label6.Text = "Username";
+            // 
+            // btnCheck
+            // 
+            btnCheck.Location = new Point(303, 476);
+            btnCheck.Name = "btnCheck";
+            btnCheck.Size = new Size(77, 26);
+            btnCheck.TabIndex = 45;
+            btnCheck.Text = "Check";
+            btnCheck.UseVisualStyleBackColor = true;
+            btnCheck.Click += btnCheck_Click;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(15, 479);
+            label12.Name = "label12";
+            label12.Size = new Size(60, 15);
+            label12.TabIndex = 46;
+            label12.Text = "REF CODE";
+            // 
+            // txtRefCode
+            // 
+            txtRefCode.Location = new Point(96, 476);
+            txtRefCode.Name = "txtRefCode";
+            txtRefCode.Size = new Size(184, 23);
+            txtRefCode.TabIndex = 44;
+            // 
             // LoanForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(815, 462);
+            ClientSize = new Size(815, 635);
+            Controls.Add(groupBox1);
+            Controls.Add(btnCheck);
+            Controls.Add(label12);
+            Controls.Add(txtRefCode);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "LoanForm";
@@ -208,7 +356,10 @@
             panel2.PerformLayout();
             panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dgv).EndInit();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -228,5 +379,19 @@
         private TextBox txtISBN;
         private Button button7;
         private DataGridView dgv;
+        private GroupBox groupBox1;
+        private DateTimePicker dtpReservationDate1;
+        private Label label11;
+        private TextBox txtStatus;
+        private Label label10;
+        private TextBox txtISBN1;
+        private Label label9;
+        private TextBox txtBookTitle;
+        private Label label8;
+        private TextBox txtUsername;
+        private Label label6;
+        private Button btnCheck;
+        private Label label12;
+        private TextBox txtRefCode;
     }
 }

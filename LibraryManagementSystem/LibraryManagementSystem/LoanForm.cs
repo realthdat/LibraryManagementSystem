@@ -169,7 +169,7 @@ namespace LibraryManagementSystem
             dtpReturnDate.Value = DateTime.Now;
         }
 
-            // Borrow click
+        // Borrow click
         private void button7_Click(object sender, EventArgs e)
         {
             // Validate fields before proceeding
@@ -483,6 +483,60 @@ namespace LibraryManagementSystem
                 // Notify if user cancels the file save process
                 MessageBox.Show("File saving was canceled.", "Save Canceled", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+        }
+
+        private void LoadReservationDetails(string refCode)
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                connection.Open();
+                string query = @"SELECT 
+                            [User].Username,
+                            Book.Title,
+                            Book.ISBN,
+                            Reservation.ReservationDate,
+                            Reservation.Status
+                         FROM Reservation
+                         JOIN [User] ON Reservation.UserID = [User].UserID
+                         JOIN Book ON Reservation.BookID = Book.BookID
+                         WHERE Reservation.RefCode = @RefCode";
+
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@RefCode", refCode);
+
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            // Điền thông tin vào các TextBox
+                            txtUsername.Text = reader["Username"].ToString();
+                            txtBookTitle.Text = reader["Title"].ToString();
+                            txtISBN1.Text = reader["ISBN"].ToString();
+                            dtpReservationDate1.Value = Convert.ToDateTime(reader["ReservationDate"]);
+                            txtStatus.Text = reader["Status"].ToString();
+                        }
+                        else
+                        {
+                            MessageBox.Show("RefCode not found.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            ClearFields();
+                        }
+                    }
+                }
+            }
+        }
+
+        private void btnCheck_Click(object sender, EventArgs e)
+        {
+            string refCode = txtRefCode.Text.Trim();
+
+            if (string.IsNullOrEmpty(refCode))
+            {
+                MessageBox.Show("Please enter a valid RefCode.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            LoadReservationDetails(refCode); // Gọi hàm để hiển thị thông tin
         }
     }
 }
