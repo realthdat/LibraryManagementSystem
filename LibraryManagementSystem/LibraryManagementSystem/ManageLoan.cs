@@ -173,8 +173,7 @@ namespace LibraryManagementSystem
                 int bookID = selectedBook.Key;
                 DateTime loanDate = dtpLoanDate.Value;
                 DateTime returnDate = dtpReturnDate.Value;
-                DateTime? actualReturnDate = dtpActualReturnDate.Value;
-                string status = cbbStatus.SelectedItem?.ToString(); // Status của Loan
+                string status = cbbStatus.SelectedItem?.ToString();
                 decimal fine = string.IsNullOrEmpty(txtFine.Text) ? 0 : Convert.ToDecimal(txtFine.Text);
                 string refCode = txtRefCode.Text;
 
@@ -183,14 +182,33 @@ namespace LibraryManagementSystem
                     connection.Open();
                     SqlCommand command;
 
-                    // Lưu Loan record (INSERT hoặc UPDATE)
+                    DateTime? actualReturnDate = null;
+
                     if (isEditMode)
                     {
-                        string updateQuery = "UPDATE Loan SET UserID = @UserID, BookID = @BookID, LoanDate = @LoanDate, ReturnDate = @ReturnDate, Fine = @Fine, Status = @Status WHERE RefCode = @RefCode";
+                        // Lấy giá trị ActualReturnDate từ cơ sở dữ liệu để kiểm tra
+                        string selectQuery = "SELECT ActualReturnDate FROM Loan WHERE RefCode = @RefCode";
+                        using (SqlCommand selectCommand = new SqlCommand(selectQuery, connection))
+                        {
+                            selectCommand.Parameters.AddWithValue("@RefCode", refCode);
+                            object dbActualReturnDate = selectCommand.ExecuteScalar();
+                            actualReturnDate = dbActualReturnDate != DBNull.Value ? (DateTime?)dbActualReturnDate : null;
+                        }
+
+                        // Nếu giá trị hiện tại khác null, cập nhật bằng giá trị từ DateTimePicker
+                        if (actualReturnDate != null)
+                        {
+                            actualReturnDate = dtpActualReturnDate.Checked ? (DateTime?)dtpActualReturnDate.Value : actualReturnDate;
+                        }
+
+                        string updateQuery = "UPDATE Loan SET UserID = @UserID, BookID = @BookID, LoanDate = @LoanDate, ReturnDate = @ReturnDate, ActualReturnDate = @ActualReturnDate, Fine = @Fine, Status = @Status WHERE RefCode = @RefCode";
                         command = new SqlCommand(updateQuery, connection);
                     }
                     else
                     {
+                        // Thêm mới
+                        actualReturnDate = dtpActualReturnDate.Checked ? (DateTime?)dtpActualReturnDate.Value : null;
+
                         string insertQuery = "INSERT INTO Loan (UserID, BookID, LoanDate, ReturnDate, ActualReturnDate, Fine, Status, RefCode) VALUES (@UserID, @BookID, @LoanDate, @ReturnDate, @ActualReturnDate, @Fine, @Status, @RefCode)";
                         command = new SqlCommand(insertQuery, connection);
                     }
@@ -199,7 +217,7 @@ namespace LibraryManagementSystem
                     command.Parameters.AddWithValue("@BookID", bookID);
                     command.Parameters.AddWithValue("@LoanDate", loanDate);
                     command.Parameters.AddWithValue("@ReturnDate", returnDate);
-                    command.Parameters.AddWithValue("@ActualReturnDate", actualReturnDate ?? (object)DBNull.Value);
+                    command.Parameters.AddWithValue("@ActualReturnDate", actualReturnDate ?? (object)DBNull.Value); // Gán DBNull.Value nếu ActualReturnDate là null
                     command.Parameters.AddWithValue("@Status", status ?? (object)DBNull.Value);
                     command.Parameters.AddWithValue("@Fine", fine);
                     command.Parameters.AddWithValue("@RefCode", refCode);
@@ -207,10 +225,7 @@ namespace LibraryManagementSystem
                     int result = command.ExecuteNonQuery();
                     if (result > 0)
                     {
-                        // Cập nhật số lượng sách dựa trên trạng thái Loan
                         UpdateBookStock(bookID, status, connection);
-
-                        // Cập nhật trạng thái Reservation dựa trên trạng thái Loan
                         UpdateReservationStatus(userID, bookID, status, connection);
 
                         MessageBox.Show("Loan record saved successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -228,6 +243,7 @@ namespace LibraryManagementSystem
             {
                 MessageBox.Show("Please select valid User and Book.", "Input Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
         }
 
         private void UpdateBookStock(int bookID, string status, SqlConnection connection)

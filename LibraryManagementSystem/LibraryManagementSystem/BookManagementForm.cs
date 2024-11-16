@@ -40,7 +40,7 @@ namespace LibraryManagementSystem
         {
             // Ví dụ về việc tải dữ liệu Genre tĩnh
             // Nếu cần tải từ cơ sở dữ liệu, thay thế danh sách này bằng câu lệnh SQL
-            List<string> genres = new List<string> { "Dystopian", "Fiction", "Romance", "Classic", "Adventure" };
+            List<string> genres = new List<string> { "Dystopian", "Fiction", "Romance", "Classic", "Adventure", "Fantasy", "Historical", "Tragedy", "Epic", "Gothic" };
 
             cbbGenre.DataSource = genres;
         }
@@ -48,7 +48,7 @@ namespace LibraryManagementSystem
         private void LoadStatus()
         {
             // Ví dụ về việc tải dữ liệu Status tĩnh
-            List<string> statuses = new List<string> { "Available", "Unavailable" };
+            List<string> statuses = new List<string> { "available", "unavailable" };
 
             cbbStatus.DataSource = statuses;
         }

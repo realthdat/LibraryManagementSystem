@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "D:\\Git\\LibraryManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\bookmanagementform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -47,24 +67,12 @@
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\registerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\manageloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\borrowrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -171,14 +179,6 @@
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\yourloan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|D:\\Git\\LibraryManagementSystem\\librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\userprofileform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|d:\\git\\librarymanagementsystem\\librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{308703D2-D6BF-4CC9-A525-F62181EA5854}|LibraryManagementSystem\\LibraryManagementSystem.csproj|solutionrelative:librarymanagementsystem\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -202,7 +202,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -210,82 +210,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoanForm.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\LoanForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:37:46.641Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LoanForm.cs",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\LoanForm.cs",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAowBUBAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:14:35.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ReturnForm.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ReturnForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:54:26.021Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReturnForm.cs",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\ReturnForm.cs",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAowOoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:49:38.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BookManagementForm.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\BookManagementForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\BookManagementForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:14:54.853Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "BookManagementForm.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\BookManagementForm.cs",
               "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
               "RelativeToolTip": "LibraryManagementSystem\\BookManagementForm.cs",
-              "ViewState": "AgIAAHgBAAAAAAAAAAAuwKMAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAowDkAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T13:57:35.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "ReservationRequest.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationRequest.cs",
@@ -298,39 +236,77 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ManageLoan.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageLoan.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\ManageLoan.cs",
+              "ViewState": "AgIAAIUBAAAAAAAAAAAuwPQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:52:41.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BorrowRequest.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BorrowRequest.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\BorrowRequest.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAqwJwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T01:48:25.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Connection.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Connection.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Connection.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\Connection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T10:19:10.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserProfileForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserProfileForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\UserProfileForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T08:42:56.531Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserProfileForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserProfileForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\UserProfileForm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T15:28:39.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "ReservationRequest.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationRequest.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ReservationRequest.cs [Design]",
+              "Title": "ReturnForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\ReturnForm.cs",
+              "ViewState": "AgIAAMsAAAAAAAAAAAAowOoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T06:04:29.098Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ManageReservation.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReservation.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ManageReservation.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:10:53.188Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManageReader.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReader.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReader.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReader.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ManageReader.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:27:40.156Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-12T10:49:38.858Z"
             },
             {
               "$type": "Bookmark",
@@ -338,31 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginForm.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoginForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\LoginForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:26:55.399Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ManageLoan.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageLoan.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\ManageLoan.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:43:02.666Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 3,
               "Title": "BorrowRequest.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\BorrowRequest.cs",
@@ -374,70 +326,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "RegisterForm.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\RegisterForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\RegisterForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\RegisterForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\RegisterForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:31:05.547Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Report.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\Report.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\Report.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:36:37.952Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ManageLoan.cs",
+              "DocumentIndex": 5,
+              "Title": "ManageLoan.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageLoan.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\ManageLoan.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAowPsAAAA5AAAAAAAAAA==",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageLoan.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ManageLoan.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:52:41.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T15:43:02.666Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BorrowRequest.cs",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\BorrowRequest.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BorrowRequest.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\BorrowRequest.cs",
-              "ViewState": "AgIAAIYAAAAAAAAAAAAqwJwAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "LoanForm.cs",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
+              "RelativeToolTip": "LibraryManagementSystem\\LoanForm.cs",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAowBUBAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T01:48:25.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T10:14:35.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Connection.cs",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Connection.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\Connection.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Connection.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\Connection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T10:19:10.284Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "UserManagementForm.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\UserManagementForm.cs",
@@ -450,7 +363,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "App.config",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\App.config",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\App.config",
@@ -462,7 +375,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "RegisterForm.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\RegisterForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\RegisterForm.cs",
@@ -470,12 +383,11 @@
               "RelativeToolTip": "LibraryManagementSystem\\RegisterForm.cs",
               "ViewState": "AgIAANwAAAAAAAAAAAAEwPEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:28:02.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T14:28:02.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\LoginForm.cs",
@@ -483,12 +395,11 @@
               "RelativeToolTip": "LibraryManagementSystem\\LoginForm.cs",
               "ViewState": "AgIAAIQAAAAAAAAAAAAawJUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T09:36:26.924Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T09:36:26.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\Program.cs",
@@ -500,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "RegisterForm.Designer.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\RegisterForm.Designer.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\RegisterForm.Designer.cs",
@@ -508,12 +419,11 @@
               "RelativeToolTip": "LibraryManagementSystem\\RegisterForm.Designer.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAtwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:29:12.497Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T14:29:12.497Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "UserForm.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\UserForm.cs",
@@ -526,7 +436,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "ReservationForm.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationForm.cs",
@@ -539,7 +449,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ManageReader.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReader.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReader.cs",
@@ -547,12 +457,11 @@
               "RelativeToolTip": "LibraryManagementSystem\\ManageReader.cs",
               "ViewState": "AgIAAMUAAAAAAAAAAAAqwBgBAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:32:20.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T13:32:20.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "LibraryManagementSystem.csproj",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LibraryManagementSystem.csproj",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\LibraryManagementSystem.csproj",
@@ -564,7 +473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "AdminForm.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\AdminForm.cs",
@@ -577,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "Dashboard.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\Dashboard.cs",
@@ -590,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "ReaderForm.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ReaderForm.cs",
@@ -603,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "ManageReservation.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReservation.cs",
@@ -611,12 +520,11 @@
               "RelativeToolTip": "LibraryManagementSystem\\ManageReservation.cs",
               "ViewState": "AgIAAFMAAAAAAAAAAAAkwG0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:17:40.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T16:17:40.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "YourReservation.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\YourReservation.cs",
@@ -629,7 +537,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "YourLoan.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\YourLoan.cs",
@@ -642,19 +550,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "UserProfileForm.cs",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserProfileForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
-              "RelativeToolTip": "LibraryManagementSystem\\UserProfileForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T15:28:39.851Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 44,
               "Title": "Report.cs",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
@@ -663,8 +558,7 @@
               "RelativeToolTip": "LibraryManagementSystem\\Report.cs",
               "ViewState": "AgIAAOYAAAAAAAAAAAAowOQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T16:36:45.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T16:36:45.666Z"
             },
             {
               "$type": "Document",
@@ -700,12 +594,111 @@
               "RelativeToolTip": "LibraryManagementSystem\\LoanForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T07:54:30.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-12T07:54:30.126Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 10,
+              "Title": "LoanForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoanForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoanForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\LoanForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:37:46.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReturnForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReturnForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReturnForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ReturnForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:54:26.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BookManagementForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\BookManagementForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\BookManagementForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\BookManagementForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T07:14:54.853Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ReservationRequest.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationRequest.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationRequest.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ReservationRequest.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T06:04:29.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ManageReservation.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReservation.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReservation.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ManageReservation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:10:53.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ManageReader.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReader.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\ManageReader.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ManageReader.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\ManageReader.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:27:40.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\LoginForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\LoginForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T09:26:55.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterForm.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\RegisterForm.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\RegisterForm.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\RegisterForm.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\RegisterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:31:05.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Report.cs [Design]",
+              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs",
+              "RelativeDocumentMoniker": "LibraryManagementSystem\\Report.cs",
+              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Report.cs [Design]",
+              "RelativeToolTip": "LibraryManagementSystem\\Report.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T16:36:37.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "ReservationForm.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReservationForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ReservationForm.cs",
@@ -716,7 +709,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "ReaderForm.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\ReaderForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\ReaderForm.cs",
@@ -727,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "UserManagementForm.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserManagementForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\UserManagementForm.cs",
@@ -738,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "UserForm.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\UserForm.cs",
@@ -749,7 +742,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "YourLoan.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourLoan.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\YourLoan.cs",
@@ -760,7 +753,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "YourReservation.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\YourReservation.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\YourReservation.cs",
@@ -771,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "AdminForm.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\AdminForm.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\AdminForm.cs",
@@ -782,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "Dashboard.cs [Design]",
               "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\Dashboard.cs",
               "RelativeDocumentMoniker": "LibraryManagementSystem\\Dashboard.cs",
@@ -790,17 +783,6 @@
               "RelativeToolTip": "LibraryManagementSystem\\Dashboard.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-12T08:53:57.085Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "UserProfileForm.cs [Design]",
-              "DocumentMoniker": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs",
-              "RelativeDocumentMoniker": "LibraryManagementSystem\\UserProfileForm.cs",
-              "ToolTip": "D:\\Git\\LibraryManagementSystem\\LibraryManagementSystem\\UserProfileForm.cs [Design]",
-              "RelativeToolTip": "LibraryManagementSystem\\UserProfileForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T08:42:56.531Z"
             }
           ]
         }

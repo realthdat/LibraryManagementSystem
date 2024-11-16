@@ -74,6 +74,13 @@ namespace LibraryManagementSystem
 
         private void btnSave_Click(object sender, EventArgs e)
         {
+            string errorMessage;
+            if (!ValidateInput(out errorMessage))
+            {
+                MessageBox.Show(errorMessage, "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
             string fullName = txtFullName.Text.Trim();
             string email = txtEmail.Text.Trim();
             string phoneNo = txtPhoneNo.Text.Trim();
@@ -130,6 +137,78 @@ namespace LibraryManagementSystem
                     }
                 }
             }
+        }
+
+        private bool ValidateInput(out string errorMessage)
+        {
+            errorMessage = string.Empty;
+
+            // Kiểm tra họ tên
+            if (string.IsNullOrEmpty(txtFullName.Text.Trim()))
+            {
+                errorMessage = "Full name is required.";
+                return false;
+            }
+
+            // Kiểm tra email
+            string email = txtEmail.Text.Trim();
+            if (string.IsNullOrEmpty(email))
+            {
+                errorMessage = "Email is required.";
+                return false;
+            }
+            else if (!IsValidEmail(email))
+            {
+                errorMessage = "Invalid email format.";
+                return false;
+            }
+
+            // Kiểm tra số điện thoại
+            string phoneNo = txtPhoneNo.Text.Trim();
+            if (!string.IsNullOrEmpty(phoneNo) && !IsValidPhoneNumber(phoneNo))
+            {
+                errorMessage = "Invalid phone number format.";
+                return false;
+            }
+
+            // Kiểm tra địa chỉ (nếu cần, không bắt buộc)
+            if (string.IsNullOrEmpty(txtAddress.Text.Trim()))
+            {
+                errorMessage = "Address is required.";
+                return false;
+            }
+
+            // Kiểm tra mật khẩu và khớp mật khẩu
+            string password = txtPassword.Text;
+            string reEnterPassword = txtReEnterPassword.Text;
+            if (!string.IsNullOrEmpty(password) && password != reEnterPassword)
+            {
+                errorMessage = "Passwords do not match.";
+                return false;
+            }
+
+            // Nếu không có lỗi
+            return true;
+        }
+
+        // Hàm kiểm tra định dạng email
+        private bool IsValidEmail(string email)
+        {
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                return addr.Address == email;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        // Hàm kiểm tra định dạng số điện thoại
+        private bool IsValidPhoneNumber(string phoneNo)
+        {
+            return System.Text.RegularExpressions.Regex.IsMatch(phoneNo, @"^\d{10,15}$");
         }
     }
 }

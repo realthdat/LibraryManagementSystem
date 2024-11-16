@@ -110,7 +110,7 @@ namespace LibraryManagementSystem
             {
                 int bookID = selectedBook.Key;
                 DateTime reservationDate = dtpReservationDate.Value;
-                string status = "canceled";
+                string status = "cancelled";
 
                 int userID;
                 string username = txtUsername.Text;

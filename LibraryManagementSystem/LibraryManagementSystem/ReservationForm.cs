@@ -134,7 +134,7 @@ namespace LibraryManagementSystem
                 int userID = selectedUser.Key;
                 int bookID = selectedBook.Key;
                 DateTime reservationDate = dtpReservationDate.Value;
-                string status = "canceled";
+                string status = "cancelled";
 
                 using (SqlConnection connection = DatabaseConnection.GetConnection())
                 {
