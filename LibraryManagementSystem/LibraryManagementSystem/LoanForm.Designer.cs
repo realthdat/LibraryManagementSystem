@@ -77,6 +77,7 @@
             // 
             txtPrice.Location = new Point(88, 320);
             txtPrice.Name = "txtPrice";
+            txtPrice.ReadOnly = true;
             txtPrice.Size = new Size(184, 23);
             txtPrice.TabIndex = 6;
             // 
@@ -159,6 +160,7 @@
             // 
             txtISBN.Location = new Point(89, 100);
             txtISBN.Name = "txtISBN";
+            txtISBN.ReadOnly = true;
             txtISBN.Size = new Size(184, 23);
             txtISBN.TabIndex = 3;
             // 

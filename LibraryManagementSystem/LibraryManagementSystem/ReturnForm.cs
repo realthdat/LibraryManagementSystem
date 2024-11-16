@@ -27,15 +27,14 @@ namespace LibraryManagementSystem
             {
                 connection.Open();
                 string query = @"SELECT 
-                            Loan.LoanID,
+                            Loan.RefCode,
                             [User].Username,
                             Book.Title,
                             Loan.LoanDate,
                             Loan.ReturnDate,
                             Loan.ActualReturnDate,
                             Loan.Fine,
-                            Loan.Status,
-                            Loan.RefCode
+                            Loan.Status
                          FROM Loan
                          JOIN [User] ON Loan.UserID = [User].UserID
                          JOIN Book ON Loan.BookID = Book.BookID";
@@ -186,7 +185,7 @@ namespace LibraryManagementSystem
             if (overdueDays > 0)
             {
                 overdueFee = overdueDays * 0.5m; // Ví dụ: tính phí trễ hạn là 0.5 mỗi ngày trễ
-                txtOverdueFee.Text = overdueFee.ToString("F2");
+                txtOverdueFee.Text = "$" + overdueFee.ToString("F2");
 
                 // Hiển thị thông báo cho người dùng về phí phạt
                 MessageBox.Show($"You have to pay this fee: {overdueFee:C}", "Overdue Fee", MessageBoxButtons.OK, MessageBoxIcon.Information);

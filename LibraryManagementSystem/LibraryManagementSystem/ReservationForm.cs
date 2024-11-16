@@ -36,12 +36,11 @@ namespace LibraryManagementSystem
             {
                 connection.Open();
                 string query = @"SELECT 
-                            Reservation.ReservationID,
+                            Reservation.RefCode,
                             [User].Username,
                             Book.Title,
                             Reservation.ReservationDate,
-                            Reservation.Status,
-                            Reservation.RefCode
+                            Reservation.Status
                          FROM Reservation
                          JOIN [User] ON Reservation.UserID = [User].UserID
                          JOIN Book ON Reservation.BookID = Book.BookID";

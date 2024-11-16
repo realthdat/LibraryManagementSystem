@@ -128,6 +128,7 @@
             // 
             txtISBN.Location = new Point(89, 100);
             txtISBN.Name = "txtISBN";
+            txtISBN.ReadOnly = true;
             txtISBN.Size = new Size(184, 23);
             txtISBN.TabIndex = 3;
             // 
