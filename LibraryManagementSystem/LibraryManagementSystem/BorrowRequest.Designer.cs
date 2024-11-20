@@ -31,8 +31,10 @@
             panel1 = new Panel();
             dgv = new DataGridView();
             panel2 = new Panel();
+            label9 = new Label();
             txtUsername = new TextBox();
             buttonRequest = new Button();
+            txtStatus = new TextBox();
             label2 = new Label();
             txtISBN = new TextBox();
             cbbBookTitle = new ComboBox();
@@ -44,9 +46,16 @@
             label4 = new Label();
             label3 = new Label();
             label6 = new Label();
+            groupBox1 = new GroupBox();
+            label8 = new Label();
+            cbbGenre = new ComboBox();
+            btnSearch = new Button();
+            txtBookTitle = new TextBox();
+            label1 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             panel2.SuspendLayout();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
@@ -64,11 +73,14 @@
             dgv.Name = "dgv";
             dgv.Size = new Size(463, 420);
             dgv.TabIndex = 0;
+            dgv.CellContentClick += dgv_CellContentClick;
             // 
             // panel2
             // 
+            panel2.Controls.Add(label9);
             panel2.Controls.Add(txtUsername);
             panel2.Controls.Add(buttonRequest);
+            panel2.Controls.Add(txtStatus);
             panel2.Controls.Add(label2);
             panel2.Controls.Add(txtISBN);
             panel2.Controls.Add(cbbBookTitle);
@@ -84,6 +96,15 @@
             panel2.Name = "panel2";
             panel2.Size = new Size(301, 426);
             panel2.TabIndex = 6;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(11, 292);
+            label9.Name = "label9";
+            label9.Size = new Size(39, 15);
+            label9.TabIndex = 31;
+            label9.Text = "Status";
             // 
             // txtUsername
             // 
@@ -103,6 +124,14 @@
             buttonRequest.UseVisualStyleBackColor = true;
             buttonRequest.Click += buttonRequest_Click;
             // 
+            // txtStatus
+            // 
+            txtStatus.Location = new Point(88, 289);
+            txtStatus.Name = "txtStatus";
+            txtStatus.ReadOnly = true;
+            txtStatus.Size = new Size(184, 23);
+            txtStatus.TabIndex = 30;
+            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -116,6 +145,7 @@
             // 
             txtISBN.Location = new Point(89, 100);
             txtISBN.Name = "txtISBN";
+            txtISBN.ReadOnly = true;
             txtISBN.Size = new Size(184, 23);
             txtISBN.TabIndex = 3;
             // 
@@ -130,14 +160,14 @@
             // 
             // dtpReturnDate
             // 
-            dtpReturnDate.Location = new Point(12, 253);
+            dtpReturnDate.Location = new Point(12, 243);
             dtpReturnDate.Name = "dtpReturnDate";
             dtpReturnDate.Size = new Size(260, 23);
             dtpReturnDate.TabIndex = 5;
             // 
             // dtpLoanDate
             // 
-            dtpLoanDate.Location = new Point(12, 178);
+            dtpLoanDate.Location = new Point(12, 170);
             dtpLoanDate.Name = "dtpLoanDate";
             dtpLoanDate.Size = new Size(261, 23);
             dtpLoanDate.TabIndex = 4;
@@ -145,7 +175,7 @@
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(11, 323);
+            label7.Location = new Point(11, 336);
             label7.Name = "label7";
             label7.Size = new Size(33, 15);
             label7.TabIndex = 18;
@@ -153,7 +183,7 @@
             // 
             // txtPrice
             // 
-            txtPrice.Location = new Point(88, 320);
+            txtPrice.Location = new Point(88, 333);
             txtPrice.Name = "txtPrice";
             txtPrice.ReadOnly = true;
             txtPrice.Size = new Size(184, 23);
@@ -162,7 +192,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(12, 226);
+            label5.Location = new Point(12, 216);
             label5.Name = "label5";
             label5.Size = new Size(69, 15);
             label5.TabIndex = 14;
@@ -171,7 +201,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(12, 151);
+            label4.Location = new Point(12, 143);
             label4.Name = "label4";
             label4.Size = new Size(60, 15);
             label4.TabIndex = 12;
@@ -195,11 +225,70 @@
             label6.TabIndex = 8;
             label6.Text = "Username";
             // 
+            // groupBox1
+            // 
+            groupBox1.Controls.Add(label8);
+            groupBox1.Controls.Add(cbbGenre);
+            groupBox1.Controls.Add(btnSearch);
+            groupBox1.Controls.Add(txtBookTitle);
+            groupBox1.Controls.Add(label1);
+            groupBox1.Location = new Point(15, 463);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(773, 95);
+            groupBox1.TabIndex = 7;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Filter/ Search book";
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(24, 47);
+            label8.Name = "label8";
+            label8.Size = new Size(38, 15);
+            label8.TabIndex = 4;
+            label8.Text = "Genre";
+            // 
+            // cbbGenre
+            // 
+            cbbGenre.FormattingEnabled = true;
+            cbbGenre.Location = new Point(100, 43);
+            cbbGenre.Name = "cbbGenre";
+            cbbGenre.Size = new Size(178, 23);
+            cbbGenre.TabIndex = 3;
+            cbbGenre.SelectedIndexChanged += cbbGenre_SelectedIndexChanged;
+            // 
+            // btnSearch
+            // 
+            btnSearch.Location = new Point(623, 41);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(77, 25);
+            btnSearch.TabIndex = 2;
+            btnSearch.Text = "Search";
+            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
+            // 
+            // txtBookTitle
+            // 
+            txtBookTitle.Location = new Point(423, 43);
+            txtBookTitle.Name = "txtBookTitle";
+            txtBookTitle.Size = new Size(178, 23);
+            txtBookTitle.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(347, 47);
+            label1.Name = "label1";
+            label1.Size = new Size(59, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Book Title";
+            // 
             // BorrowRequest
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 577);
+            Controls.Add(groupBox1);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Name = "BorrowRequest";
@@ -208,6 +297,8 @@
             ((System.ComponentModel.ISupportInitialize)dgv).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -229,5 +320,13 @@
         private Label label4;
         private Label label3;
         private Label label6;
+        private GroupBox groupBox1;
+        private ComboBox cbbGenre;
+        private Button btnSearch;
+        private TextBox txtBookTitle;
+        private Label label1;
+        private Label label9;
+        private Label label8;
+        private TextBox txtStatus;
     }
 }
