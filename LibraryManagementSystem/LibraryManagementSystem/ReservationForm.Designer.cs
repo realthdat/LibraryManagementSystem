@@ -32,6 +32,8 @@
             panel1 = new Panel();
             dgv = new DataGridView();
             panel2 = new Panel();
+            label15 = new Label();
+            txtStatus1 = new TextBox();
             label7 = new Label();
             txtPrice = new TextBox();
             label1 = new Label();
@@ -56,6 +58,11 @@
             label9 = new Label();
             txtBookTitle = new TextBox();
             label8 = new Label();
+            label13 = new Label();
+            cbbGenre = new ComboBox();
+            btnSearch = new Button();
+            txtSearch = new TextBox();
+            label14 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dgv).BeginInit();
             panel2.SuspendLayout();
@@ -64,7 +71,7 @@
             // 
             // btnPlaceHold
             // 
-            btnPlaceHold.Location = new Point(104, 333);
+            btnPlaceHold.Location = new Point(105, 357);
             btnPlaceHold.Name = "btnPlaceHold";
             btnPlaceHold.Size = new Size(89, 39);
             btnPlaceHold.TabIndex = 5;
@@ -87,9 +94,12 @@
             dgv.Name = "dgv";
             dgv.Size = new Size(463, 420);
             dgv.TabIndex = 0;
+            dgv.CellContentClick += dgv_CellContentClick;
             // 
             // panel2
             // 
+            panel2.Controls.Add(label15);
+            panel2.Controls.Add(txtStatus1);
             panel2.Controls.Add(label7);
             panel2.Controls.Add(txtPrice);
             panel2.Controls.Add(label1);
@@ -106,10 +116,27 @@
             panel2.Size = new Size(301, 426);
             panel2.TabIndex = 9;
             // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(11, 238);
+            label15.Name = "label15";
+            label15.Size = new Size(39, 15);
+            label15.TabIndex = 39;
+            label15.Text = "Status";
+            // 
+            // txtStatus1
+            // 
+            txtStatus1.Location = new Point(88, 235);
+            txtStatus1.Name = "txtStatus1";
+            txtStatus1.ReadOnly = true;
+            txtStatus1.Size = new Size(184, 23);
+            txtStatus1.TabIndex = 38;
+            // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(11, 238);
+            label7.Location = new Point(10, 287);
             label7.Name = "label7";
             label7.Size = new Size(33, 15);
             label7.TabIndex = 37;
@@ -117,7 +144,7 @@
             // 
             // txtPrice
             // 
-            txtPrice.Location = new Point(88, 235);
+            txtPrice.Location = new Point(87, 284);
             txtPrice.Name = "txtPrice";
             txtPrice.ReadOnly = true;
             txtPrice.Size = new Size(184, 23);
@@ -136,6 +163,7 @@
             // 
             txtISBN.Location = new Point(88, 98);
             txtISBN.Name = "txtISBN";
+            txtISBN.ReadOnly = true;
             txtISBN.Size = new Size(184, 23);
             txtISBN.TabIndex = 3;
             // 
@@ -193,7 +221,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(15, 469);
+            label5.Location = new Point(15, 524);
             label5.Name = "label5";
             label5.Size = new Size(60, 15);
             label5.TabIndex = 39;
@@ -201,14 +229,14 @@
             // 
             // txtRefCode
             // 
-            txtRefCode.Location = new Point(96, 466);
+            txtRefCode.Location = new Point(96, 521);
             txtRefCode.Name = "txtRefCode";
             txtRefCode.Size = new Size(184, 23);
             txtRefCode.TabIndex = 6;
             // 
             // btnCheck
             // 
-            btnCheck.Location = new Point(303, 466);
+            btnCheck.Location = new Point(303, 521);
             btnCheck.Name = "btnCheck";
             btnCheck.Size = new Size(77, 26);
             btnCheck.TabIndex = 7;
@@ -245,7 +273,7 @@
             groupBox1.Controls.Add(label8);
             groupBox1.Controls.Add(txtUsername);
             groupBox1.Controls.Add(label6);
-            groupBox1.Location = new Point(15, 495);
+            groupBox1.Location = new Point(15, 550);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(773, 100);
             groupBox1.TabIndex = 43;
@@ -319,11 +347,60 @@
             label8.TabIndex = 44;
             label8.Text = "Book Title";
             // 
+            // label13
+            // 
+            label13.AutoSize = true;
+            label13.Location = new Point(15, 472);
+            label13.Name = "label13";
+            label13.Size = new Size(38, 15);
+            label13.TabIndex = 57;
+            label13.Text = "Genre";
+            // 
+            // cbbGenre
+            // 
+            cbbGenre.FormattingEnabled = true;
+            cbbGenre.Location = new Point(96, 469);
+            cbbGenre.Name = "cbbGenre";
+            cbbGenre.Size = new Size(178, 23);
+            cbbGenre.TabIndex = 56;
+            cbbGenre.SelectedIndexChanged += cbbGenre_SelectedIndexChanged;
+            // 
+            // btnSearch
+            // 
+            btnSearch.Location = new Point(622, 467);
+            btnSearch.Name = "btnSearch";
+            btnSearch.Size = new Size(77, 25);
+            btnSearch.TabIndex = 55;
+            btnSearch.Text = "Search";
+            btnSearch.UseVisualStyleBackColor = true;
+            btnSearch.Click += btnSearch_Click;
+            // 
+            // txtSearch
+            // 
+            txtSearch.Location = new Point(422, 469);
+            txtSearch.Name = "txtSearch";
+            txtSearch.Size = new Size(178, 23);
+            txtSearch.TabIndex = 54;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(346, 473);
+            label14.Name = "label14";
+            label14.Size = new Size(59, 15);
+            label14.TabIndex = 53;
+            label14.Text = "Book Title";
+            // 
             // ReservationForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 627);
+            ClientSize = new Size(800, 662);
+            Controls.Add(label13);
+            Controls.Add(cbbGenre);
+            Controls.Add(btnSearch);
+            Controls.Add(txtSearch);
+            Controls.Add(label14);
             Controls.Add(groupBox1);
             Controls.Add(btnCheck);
             Controls.Add(label5);
@@ -374,5 +451,12 @@
         private Label label9;
         private TextBox txtBookTitle;
         private Label label8;
+        private Label label13;
+        private ComboBox cbbGenre;
+        private Button btnSearch;
+        private TextBox txtSearch;
+        private Label label14;
+        private Label label15;
+        private TextBox txtStatus1;
     }
 }

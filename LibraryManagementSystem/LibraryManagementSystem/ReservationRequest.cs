@@ -23,6 +23,7 @@ namespace LibraryManagementSystem
 
             txtUsername.Text = loggedInUsername;
 
+            LoadGenres();
             LoadAllBooks();
             LoadBooks();
 
@@ -42,6 +43,28 @@ namespace LibraryManagementSystem
                     dgv.DataSource = bookTable;
                 }
             }
+        }
+
+
+        private void LoadGenres()
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                connection.Open();
+                string query = "SELECT DISTINCT Genre FROM Book";
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            cbbGenre.Items.Add(reader["Genre"].ToString());
+                        }
+                    }
+                }
+            }
+            cbbGenre.Items.Insert(0, "All"); // Optionally add 'All' to reset the filter
+            cbbGenre.SelectedIndex = 0; // Default selection
         }
 
 
@@ -271,6 +294,86 @@ namespace LibraryManagementSystem
                             }
                         }
                     }
+                }
+            }
+        }
+
+        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0) // Kiểm tra xem có hàng nào được chọn không
+            {
+                DataGridViewRow row = dgv.Rows[e.RowIndex];
+
+                cbbBookTitle.SelectedItem = row.Cells["Title"].Value.ToString();
+                txtISBN.Text = row.Cells["ISBN"].Value.ToString();
+                txtPrice.Text = row.Cells["Price"].Value.ToString();
+                txtStatus.Text = row.Cells["Status"].Value.ToString();
+
+                // Thiết lập giá trị cho ComboBox Genre
+                string title = row.Cells["Title"].Value.ToString();
+                cbbBookTitle.SelectedIndex = cbbBookTitle.FindStringExact(title);
+
+            }
+        }
+
+        private void cbbGenre_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (cbbGenre.SelectedItem != "All")
+            {
+                string selectedGenre = cbbGenre.SelectedItem.ToString();
+                LoadBooksByGenre(selectedGenre);
+            }
+            else
+            {
+                LoadAllBooks();
+            }
+        }
+
+        private void LoadBooksByGenre(string genre)
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                connection.Open();
+                string query = "SELECT Title, Author, PublicationYear, Genre, ISBN, Status, Location, Totalcopies, Price " +
+                               "FROM Book WHERE Genre = @Genre";
+
+                using (SqlDataAdapter adapter = new SqlDataAdapter(query, connection))
+                {
+                    adapter.SelectCommand.Parameters.AddWithValue("@Genre", genre);
+                    DataTable bookTable = new DataTable();
+                    adapter.Fill(bookTable);
+                    dgv.DataSource = bookTable;
+                }
+            }
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+            string bookTitle = txtBookTitle.Text.Trim();
+
+            if (string.IsNullOrEmpty(bookTitle))
+            {
+                MessageBox.Show("Please enter a book title to search.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            SearchBooksByTitle(bookTitle);
+        }
+
+        private void SearchBooksByTitle(string title)
+        {
+            using (SqlConnection connection = DatabaseConnection.GetConnection())
+            {
+                connection.Open();
+                string query = "SELECT Title, Author, PublicationYear, Genre, ISBN, Status, Location, Totalcopies, Price " +
+                               "FROM Book WHERE Title LIKE @Title";
+
+                using (SqlDataAdapter adapter = new SqlDataAdapter(query, connection))
+                {
+                    adapter.SelectCommand.Parameters.AddWithValue("@Title", $"%{title}%"); // Use wildcard for partial matching
+                    DataTable bookTable = new DataTable();
+                    adapter.Fill(bookTable);
+                    dgv.DataSource = bookTable;
                 }
             }
         }

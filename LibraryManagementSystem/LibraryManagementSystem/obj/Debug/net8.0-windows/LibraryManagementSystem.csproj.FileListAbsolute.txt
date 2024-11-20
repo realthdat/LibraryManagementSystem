@@ -178,3 +178,4 @@ D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0-windows\
 D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0-windows\LibraryManagementSystem.BorrowRequest.resources
 D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0-windows\LibraryManagementSystem.ReservationRequest.resources
 D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0-windows\LibraryManagementSystem.ManageReader.resources
+D:\Git\LibraryManagementSystem\LibraryManagementSystem\obj\Debug\net8.0-windows\LibraryManagementSystem.RegisterForm.resources
