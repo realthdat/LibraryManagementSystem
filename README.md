@@ -76,14 +76,6 @@ FINAL_dotNetTechnology/
 
 ---
 
-## 📸 UI Preview
-
-Library Login Form 
-
-[Library Login Form](Resources/MainLibrary.png) 
-
----
-
 ## 🪪 Author
 
 - **Developed by**: DatDev
