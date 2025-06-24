@@ -55,7 +55,7 @@ FINAL_dotNetTechnology/
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/realthdat/LibraryManagementSystem.git
+   git clone https://github.com/realthdat/Library_Management_System.git
    ```
 
 2. **Set Up the Database**:
